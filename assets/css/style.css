@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/*
+ You may not change or alter any portion of this comment or credits
+ of supporting developers from this source code or any supporting source code
+ which is considered copyrighted (c) material of the original comment or credit authors.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+*/
+/**
+ * wgXPiwik module for xoops
+ *
+ * @copyright       The XOOPS Project (http://xoops.org)
+ * @license         GPL 2.0 or later
+ * @package         wgxpiwik
+ * @since           1.0
+ * @min_xoops       2.5.7
+ * @author          Goffy - Wedega.com - Email:<webmaster@wedega.com> - Website:<http://wedega.com>
+ * @version         $Id: 1.0 style.css 1 Tue 2016/01/12 23:05:12Z Goffy - Wedega $
+ */
+
+.btn-wgxpiwik {
+  -moz-box-sizing: border-box; 
+  background-color: #4c9ee5 !important;
+  border-color: #3772a6;
+  color: #FFFFFF !important;
+  -moz-user-select: none;
+  background-image: none;
+  border: 1px solid #3772a6;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.9;
+  margin-bottom: 0;
+  padding: 6px 8px 6px 8px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+} 
+.btn-wgxpiwik:hover, .btn-wgxpiwik:focus {
+  color:#FFFFFF;
+  background-color:#428BCA !important;
+  border-color:#3772a6;
+} 
+
+.wgxpiwik-iframe {
+    height: 150vh;
+    min-height:150vh;
+    box-sizing:border-box;
+    border: 0px solid #ffffff;
+    margin: 0px;
+    width: 100%;
+}

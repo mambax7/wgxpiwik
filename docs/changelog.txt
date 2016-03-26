@@ -1,0 +1,17 @@
+
+==============================================================
+Change Log for wgXPiwik - 2016/03/26 10:43:12 Version 1.02
+==============================================================
+ - added german langs (goffy)
+ - cosmetic changes in admin area (goffy)
+ - updated Piwik to version 2.16
+ 
+==============================================================
+Change Log for wgXPiwik - 2016/01/25 23:05:12 Version 1.01
+==============================================================
+ - fixed bug in block with tracker (goffy)
+ 
+==============================================================
+Change Log for wgXPiwik - 2016/01/12 23:05:12 Version 1.0
+==============================================================
+ - Original release wgxpiwik (Goffy - Wedega.com)
