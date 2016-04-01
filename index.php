@@ -65,10 +65,8 @@ if ($permsCount > 0) {
         }
 
     }
-
     $redir_url = WGXPIWIK_URL . "/piwik/index.php?module=Login&action=logme&login=".$login_name."&password=".$login_pwd."&url=".WGXPIWIK_URL."/iframe.php";
     redirect_header($redir_url , 0, '');
-    
 }
 
 include  __DIR__ . '/footer.php';
