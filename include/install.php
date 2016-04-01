@@ -21,6 +21,12 @@
  */
 //
 defined('XOOPS_ROOT_PATH') or die('Restricted access');
+
+// deleting existing piwik config files from module creator
+if (file_exists( XOOPS_ROOT_PATH . "/modules/wgxpiwik/piwik/config/config.ini.php")) {
+	unlink( XOOPS_ROOT_PATH . "/modules/wgxpiwik/piwik/config/config.ini.php");
+}
+
 // Copy base file
 $indexFile = XOOPS_UPLOAD_PATH.'/index.html';
 $blankFile = XOOPS_UPLOAD_PATH.'/blank.gif';

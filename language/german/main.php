@@ -25,5 +25,5 @@ define('_MA_WGXPIWIK_TITLE', "XPiwik Web-Analysen");
 define('_MA_WGXPIWIK_DESC', "Professionelle Web-Analysen für Ihre Webseite");
 // ---------------- Admin Menu ----------------
 define('_MA_WGXPIWIK_ADMIN', "Administration");
-define('_MI_WGXPIWIK_ADMENU1', "XPiwik Web-Analysen");
+define('_MA_WGXPIWIK_ADMENU1', "XPiwik Web-Analysen");
 // ---------------- End ----------------
