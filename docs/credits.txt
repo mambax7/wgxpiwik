@@ -6,6 +6,7 @@ This module was originally developed by Goffy (www.wedega.com).
 Contributors:
 -------------
 Camille Olliè (boscorelly) - french translation
+Mamba
 
 
 Special thanks to TDM Team.
