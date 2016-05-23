@@ -25,7 +25,7 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 // ------------------- Informations ------------------- //
 $modversion = array(
     'name' => _MI_WGXPIWIK_NAME,
-    'version' => "1.02",
+    'version' => "1.03",
     'description' => _MI_WGXPIWIK_DESC,
     'author' => 'Goffy - Wedega.com',
     'author_mail' => 'webmaster@wedega.com',
