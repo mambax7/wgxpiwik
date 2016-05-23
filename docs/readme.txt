@@ -1,17 +1,16 @@
 Read Me First
 =============
+This module is for implementation of Piwik to your Xoops.
 
-Please make sure that you download the XOOPS Icon Set, and upload it to uploads/images directory
-Read the table in admin help for the accurate description of the functionality of this module
+* Piwik is included in the module
+* Installing Piwik can be started from module, but you can't admin Piwik himself (create user, admin user rights,...) via this module. You have to use Piwik admin ui.
+* You can provide Piwik Charts/Widgets via iframe on user site. As Piwik function 'logme' is used, therefore no separate login for your users is necessary.
+* The permissions for Xoops User you can set per group in the module
+* Tracking will be done via a block. Therefore you can activate tracking only for specific modules, all modules or only the startpage.
 
-Using the new class xoopsrequest.php
+For detailed information about Piwik and widgets of Piwik goto http://piwik.org/
+
 
 Version of xoops
 ----------------
-TDMCreate is a module that create other basic modules for CMS Xoops.
-
-Tested with xoops 2.5.7, you can not use it with earlier versions, unless because you do not fit some core files in the background and after some tests.
-
-Now that is ahead xoops versions, and goes to 2.6.0, you should download xoops 2.5.7 and use with this latest version.
-
-Therefore recommended not to use TDMCreate 1.91, with previous versions, to xoops 2.5.7
+Tested with xoops 2.5.7, you can not use it with earlier versions
