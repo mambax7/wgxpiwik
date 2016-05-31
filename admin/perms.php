@@ -19,41 +19,36 @@
  * @author          Goffy - Wedega.com - Email:<webmaster@wedega.com> - Website:<http://wedega.com>
  * @version         $Id: 1.0 perms.php 1 Fri 2016/01/15 15:13:35Z Goffy - Wedega $
  */
-include __DIR__ .'/header.php';
+include __DIR__ . '/header.php';
 // It recovered the value of argument op in URL$ 
-$op = XoopsRequest::getString('op', 'list');
+$op     = XoopsRequest::getString('op', 'list');
 // Request perm_id
 $permId = XoopsRequest::getInt('perm_id', 0);
 // Switch options
 switch ($op)
 {
-	case 'list':
+    case 'list':
     default:
-        // add new groupid from xoops groups to table perms
         global $xoopsDB;
-        
-        $sql = "INSERT INTO " . $xoopsDB->prefix("mod_wgxpiwik_perms") . " ( perm_groupid ) SELECT groupid FROM " . $xoopsDB->prefix("groups");
-        $sql .= " LEFT JOIN " . $xoopsDB->prefix("mod_wgxpiwik_perms") ." ON " . $xoopsDB->prefix("groups") .".groupid = " . $xoopsDB->prefix("mod_wgxpiwik_perms");
-        $sql .= ".perm_groupid WHERE (" . $xoopsDB->prefix("mod_wgxpiwik_perms") .".perm_groupid Is Null);";
+
+        // add new groupid from xoops groups to table perms
+        $sql = 'INSERT INTO ' . $xoopsDB->prefix('mod_wgxpiwik_perms') . ' ( perm_groupid ) SELECT groupid FROM ' . $xoopsDB->prefix('groups'). ' LEFT JOIN ' . $xoopsDB->prefix('mod_wgxpiwik_perms') .' ON ' . $xoopsDB->prefix('groups') . '.groupid = ' . $xoopsDB->prefix('mod_wgxpiwik_perms') . '.perm_groupid WHERE (' . $xoopsDB->prefix('mod_wgxpiwik_perms') . '.perm_groupid Is Null);';
         $result = $xoopsDB->queryF($sql);
 
-        
         // delete non-existing groupid from xoops groups to table perms
-        $sql = "DELETE " . $xoopsDB->prefix("mod_wgxpiwik_perms") . ".* FROM " . $xoopsDB->prefix("mod_wgxpiwik_perms") . " LEFT JOIN " . $xoopsDB->prefix("groups");
-        $sql .= " ON " .$xoopsDB->prefix("mod_wgxpiwik_perms") . ".perm_groupid = " . $xoopsDB->prefix("groups") .".groupid WHERE (((" . $xoopsDB->prefix("groups");
-        $sql .= ".groupid) Is Null));";
+        $sql = 'DELETE ' . $xoopsDB->prefix('mod_wgxpiwik_perms') . '.* FROM ' . $xoopsDB->prefix('mod_wgxpiwik_perms') . ' LEFT JOIN ' . $xoopsDB->prefix('groups') . ' ON ' .$xoopsDB->prefix('mod_wgxpiwik_perms') . '.perm_groupid = ' . $xoopsDB->prefix('groups') .'.groupid WHERE (((' . $xoopsDB->prefix('groups') . '.groupid) Is Null));';
         $result = $xoopsDB->queryF($sql);
         
-        $sql = "UPDATE " . $xoopsDB->prefix("mod_wgxpiwik_perms") . " SET " . $xoopsDB->prefix("mod_wgxpiwik_perms") . ".perm_weight = " . $xoopsDB->prefix("mod_wgxpiwik_perms"). ".perm_id WHERE (" . $xoopsDB->prefix("mod_wgxpiwik_perms") .".perm_weight = 0);";
+        $sql = 'UPDATE ' . $xoopsDB->prefix('mod_wgxpiwik_perms') . ' SET ' . $xoopsDB->prefix('mod_wgxpiwik_perms') . '.perm_weight = ' . $xoopsDB->prefix('mod_wgxpiwik_perms'). '.perm_id WHERE (' . $xoopsDB->prefix('mod_wgxpiwik_perms') .'.perm_weight = 0);';
         $result = $xoopsDB->queryF($sql);
         
-		$start = XoopsRequest::getInt('start', 0);
+        $start = XoopsRequest::getInt('start', 0);
         $limit = XoopsRequest::getInt('limit', $wgxpiwik->getConfig('adminpager'));
         $templateMain = 'wgxpiwik_admin_perms.tpl';
         $GLOBALS['xoopsTpl']->assign('navigation', $adminMenu->addNavigation('perms.php'));
         $permsCount = $permsHandler->getCountPerms();
-        $permsAll = $permsHandler->getAllPerms($start, $limit);
-		$GLOBALS['xoopsTpl']->assign('perms_count', $permsCount);
+        $permsAll   = $permsHandler->getAllPerms($start, $limit);
+        $GLOBALS['xoopsTpl']->assign('perms_count', $permsCount);
         $GLOBALS['xoopsTpl']->assign('wgxpiwik_url', WGXPIWIK_URL);
         $GLOBALS['xoopsTpl']->assign('wgxpiwik_upload_url', WGXPIWIK_UPLOAD_URL);
         // Table view
@@ -61,7 +56,7 @@ switch ($op)
         {
             foreach (array_keys($permsAll) as $i)
             {
-				$perm = $permsAll[$i]->getValuesPerms();
+                $perm = $permsAll[$i]->getValuesPerms();
                 $GLOBALS['xoopsTpl']->append('perms_list', $perm);
                 unset($perm);
             }
@@ -75,9 +70,9 @@ switch ($op)
         }
         break;
         
-	case 'save':
-		if ( !$GLOBALS['xoopsSecurity']->check() ) {
-			redirect_header('perms.php', 3, implode(',', $GLOBALS['xoopsSecurity']->getErrors()));
+    case 'save':
+        if ( !$GLOBALS['xoopsSecurity']->check() ) {
+            redirect_header('perms.php', 3, implode(',', $GLOBALS['xoopsSecurity']->getErrors()));
         }
         if (isset($permId)) {
            $permsObj =& $permsHandler->get($permId);
@@ -97,14 +92,14 @@ switch ($op)
         }
         break;
         
-	case 'edit':
-		$templateMain = 'wgxpiwik_admin_perms.tpl';
+    case 'edit':
+        $templateMain = 'wgxpiwik_admin_perms.tpl';
         $adminMenu->addItemButton(_AM_WGXPIWIK_PERMS_LIST, 'perms.php', 'list');
         $GLOBALS['xoopsTpl']->assign('navigation', $adminMenu->addNavigation('perms.php'));
         $GLOBALS['xoopsTpl']->assign('buttons', $adminMenu->renderButton());
         // Get Form
         $permsObj = $permsHandler->get($permId);
-        $form = $permsObj->getFormPerms();
+        $form     = $permsObj->getFormPerms();
         $GLOBALS['xoopsTpl']->assign('form', $form->render());
         break;
 

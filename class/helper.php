@@ -21,6 +21,9 @@
  */
 defined('XOOPS_ROOT_PATH') or die('Restricted access');
 
+/**
+* class WgxpiwikHelper
+*/
 class WgxpiwikHelper
 {
     /**
@@ -89,7 +92,7 @@ class WgxpiwikHelper
             $this->initConfig();
         }
         if (!$name) {
-            $this->addLog("Getting all config");
+            $this->addLog('Getting all config');
             return $this->config;
         }
         if (!isset($this->config[$name])) {

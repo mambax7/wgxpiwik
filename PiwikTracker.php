@@ -15,5 +15,5 @@ if (!class_exists('PiwikTracker')) {
 }
 
 if (PiwikTracker::VERSION !== 1) {
-    throw new Exception("Expected PiwikTracker in libs/PiwikTracker/PiwikTracker.php to be version 1 for keeping backward compatibility.");
+    throw new Exception('Expected PiwikTracker in libs/PiwikTracker/PiwikTracker.php to be version 1 for keeping backward compatibility.');
 }

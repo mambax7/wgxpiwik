@@ -26,16 +26,13 @@ include_once XOOPS_ROOT_PATH .'/header.php';
 // Define Stylesheet
 $GLOBALS['xoTheme']->addStylesheet( $style );
 
-/* include_once XOOPS_ROOT_PATH.'/class/xoopsform/grouppermform.php';
-$gperm_handler =& xoops_gethandler('groupperm'); */
+$groups = XOOPS_GROUP_ANONYMOUS;
 if (is_object($xoopsUser)) {
     $groups = $xoopsUser->getGroups();
-} else {
-    $groups = XOOPS_GROUP_ANONYMOUS;
 }
 
 $criteria = new CriteriaCompo();
-$criteria->add(new Criteria('perm_piwik_login', "", "<>"));
+$criteria->add(new Criteria('perm_piwik_login', '', '<>'));
 $criteria->setSort('perm_weight');
 $criteria->setOrder('ASC');
 $permsCount = $permsHandler->getCount($criteria);
@@ -44,10 +41,10 @@ $users_list = $piwikHandler->wgxpiwikGetPiwikUsers();
 
 if ($permsCount > 0) {
     $permsAll = $permsHandler->getAll($criteria);
-	// Get All Perms
-	foreach(array_keys($permsAll) as $i)
+    // Get All Perms
+    foreach(array_keys($permsAll) as $i)
     {
-		// search for first perm, sorted by perm_weight
+        // search for first perm, sorted by perm_weight
         if ($login_name == '') {
             $perm_groupid = $permsAll[$i]->getVar('perm_groupid');
             $perm_piwik_login = $permsAll[$i]->getVar('perm_piwik_login');
@@ -60,12 +57,12 @@ if ($permsCount > 0) {
                     }
                 }
             } else {
-                echo "<br/>not in group ".$perm_groupid;
+                echo '<br/>not in group ' . $perm_groupid;
             }
         }
 
     }
-    $redir_url = WGXPIWIK_URL . "/piwik/index.php?module=Login&action=logme&login=".$login_name."&password=".$login_pwd."&url=".WGXPIWIK_URL."/iframe.php";
+    $redir_url = WGXPIWIK_URL . '/piwik/index.php?module=Login&action=logme&login=' . $login_name . '&password=' . $login_pwd . '&url=' . WGXPIWIK_URL . '/iframe.php';
     redirect_header($redir_url , 0, '');
 }
 

@@ -31,7 +31,7 @@ class WgxpiwikPiwikHandler extends XoopsPersistableObjectHandler
     */
     private $wgxpiwik = null;    
     
-	/*
+    /*
      * Constructor
      *
      * @param string $db
@@ -45,26 +45,26 @@ class WgxpiwikPiwikHandler extends XoopsPersistableObjectHandler
     {
         // read the config from piwik config file 'piwik/config/config.ini.php'
         // set default values
-        $wgxpiwik_config["dbname"] = "-";
-        $wgxpiwik_config["host"] = "-";
-        $wgxpiwik_config["username"] = "-";
-        $wgxpiwik_config["tables_prefix"] = "-";
-        $wgxpiwik_config["enable_framed_pages"] = "0";
+        $wgxpiwik_config['dbname']              = '-';
+        $wgxpiwik_config['host']                = '-';
+        $wgxpiwik_config['username']            = '-';
+        $wgxpiwik_config['tables_prefix']       = '-';
+        $wgxpiwik_config['enable_framed_pages'] = '0';
         
-		if (file_exists(WGXPIWIK_PIWIK_CONFIG_INI)) {
-			$options = array();
-			$handle = fopen(WGXPIWIK_PIWIK_CONFIG_INI, "r");
-			if ($handle) {
-				while (($line = fgets($handle)) !== false) {
-					// process the line read.
-					if (strpos($line, "=") > 0) {
-						$options = explode("=", $line);
-						$wgxpiwik_config[trim($options[0])] = str_replace('"', '', trim($options[1]));
-					}
-				}
-				fclose($handle);
-			} 
-		}
+        if (file_exists(WGXPIWIK_PIWIK_CONFIG_INI)) {
+            $options = array();
+            $handle = fopen(WGXPIWIK_PIWIK_CONFIG_INI, 'r');
+            if ($handle) {
+                while (($line = fgets($handle)) !== false) {
+                    // process the line read.
+                    if (strpos($line, '=') > 0) {
+                        $options = explode('=', $line);
+                        $wgxpiwik_config[trim($options[0])] = str_replace('"', '', trim($options[1]));
+                    }
+                }
+                fclose($handle);
+            } 
+        }
         
         return $wgxpiwik_config;
     }
@@ -75,16 +75,16 @@ class WgxpiwikPiwikHandler extends XoopsPersistableObjectHandler
         
         $wgxpiwik_config = $this->wgxpiwikReadPiwikConfig();
         
-        $sql = "SELECT * FROM " . $wgxpiwik_config["tables_prefix"] . "site;";
+        $sql = 'SELECT * FROM ' . $wgxpiwik_config['tables_prefix'] . 'site;';
         $sites_list = array();
         $i = 0;
         $result = $xoopsDB->queryF($sql);
-		if($result) {
-			while ($site_item = mysql_fetch_assoc($result)) {
-				$i++;
-				$sites_list[] = array($i,"idsite" => $site_item["idsite"], "name" => $site_item["name"]);
-			}
-		}
+        if($result) {
+            while ($site_item = mysql_fetch_assoc($result)) {
+                $i++;
+                $sites_list[] = array($i,'idsite' => $site_item['idsite'], 'name' => $site_item['name']);
+            }
+        }
         return $sites_list;
     }
 
@@ -95,15 +95,15 @@ class WgxpiwikPiwikHandler extends XoopsPersistableObjectHandler
         
         $wgxpiwik_config = $this->wgxpiwikReadPiwikConfig();
         
-        $sql = "SELECT * FROM " . $wgxpiwik_config["tables_prefix"] . "user;";
+        $sql = 'SELECT * FROM ' . $wgxpiwik_config['tables_prefix'] . 'user;';
         $users_list = array();
         $i = 0;
         $result = $xoopsDB->queryF($sql);
-		if($result) {
-			while ($user_item = mysql_fetch_assoc($result)) {
-				$i++;
-				$users_list[] = array($i,"login" => $user_item["login"], "pwd" => $user_item["password"], "alias" => $user_item["alias"], "token_auth" => $user_item["token_auth"], "superuser_access" => $user_item["superuser_access"]);
-			}
+        if($result) {
+            while ($user_item = mysql_fetch_assoc($result)) {
+                $i++;
+                $users_list[] = array($i,'login' => $user_item['login'], 'pwd' => $user_item['password'], 'alias' => $user_item['alias'], 'token_auth' => $user_item['token_auth'], 'superuser_access' => $user_item['superuser_access']);
+            }
         }
         return $users_list;   
     }

@@ -21,15 +21,15 @@
  */
 
 function wgxpiwik_CleanVars( &$global, $key, $default = '', $type = 'int' ) {
-    switch ( $type ) {
+    switch ($type) {
         case 'string':
-            $ret = ( isset( $global[$key] ) ) ? filter_var( $global[$key], FILTER_SANITIZE_MAGIC_QUOTES ) : $default;
+            $ret = (isset($global[$key])) ? filter_var($global[$key], FILTER_SANITIZE_MAGIC_QUOTES) : $default;
             break;
         case 'int': default:
-            $ret = ( isset( $global[$key] ) ) ? filter_var( $global[$key], FILTER_SANITIZE_NUMBER_INT ) : $default;
+            $ret = (isset($global[$key])) ? filter_var($global[$key], FILTER_SANITIZE_NUMBER_INT) : $default;
             break;
     }
-    if ( $ret === false ) {
+    if ($ret === false) {
         return $default;
     }
     return $ret;
@@ -40,7 +40,7 @@ function wgxpiwikMetaKeywords($content)
     global $xoopsTpl, $xoTheme;
     $myts =& MyTextSanitizer::getInstance();
     $content= $myts->undoHtmlSpecialChars($myts->displayTarea($content));
-    if(isset($xoTheme) && is_object($xoTheme)) {
+    if (isset($xoTheme) && is_object($xoTheme)) {
         $xoTheme->addMeta( 'meta', 'keywords', strip_tags($content));
     } else {    // Compatibility for old Xoops versions
         $xoopsTpl->assign('xoops_meta_keywords', strip_tags($content));
@@ -52,7 +52,7 @@ function wgxpiwikMetaDescription($content)
     global $xoopsTpl, $xoTheme;
     $myts =& MyTextSanitizer::getInstance();
     $content = $myts->undoHtmlSpecialChars($myts->displayTarea($content));
-    if(isset($xoTheme) && is_object($xoTheme)) {
+    if (isset($xoTheme) && is_object($xoTheme)) {
         $xoTheme->addMeta( 'meta', 'description', strip_tags($content));
     } else {    // Compatibility for old Xoops versions
         $xoopsTpl->assign('xoops_meta_description', strip_tags($content));

@@ -19,7 +19,7 @@
  * @author          Goffy - Wedega.com - Email:<webmaster@wedega.com> - Website:<http://wedega.com>
  * @version         $Id: 1.0 index.php 1 Tue 2016/01/12 23:05:11Z Goffy - Wedega $
  */
-include __DIR__ .'/header.php';
+include __DIR__ . '/header.php';
 // Count elements
 $countPerms = $permsHandler->getCountPerms();
 $sites_list = $piwikHandler->wgxpiwikGetPiwikSites();
@@ -30,12 +30,12 @@ $templateMain = 'wgxpiwik_admin_index.tpl';
 // InfoBox Statistics
 $adminMenu->addInfoBox(_AM_WGXPIWIK_STATISTICS);
 // Info elements
-$adminMenu->addInfoBoxLine(_AM_WGXPIWIK_STATISTICS, '<label>'._AM_WGXPIWIK_THEREARE_SITES.'</label>', count($sites_list));
-$adminMenu->addInfoBoxLine(_AM_WGXPIWIK_STATISTICS, '<label>'._AM_WGXPIWIK_THEREARE_USERS.'</label>', count($users_list));
-$adminMenu->addInfoBoxLine(_AM_WGXPIWIK_STATISTICS, '<label>'._AM_WGXPIWIK_THEREARE_PERMS.'</label>', $countPerms);
+$adminMenu->addInfoBoxLine(_AM_WGXPIWIK_STATISTICS, '<label>' . _AM_WGXPIWIK_THEREARE_SITES . '</label>', count($sites_list));
+$adminMenu->addInfoBoxLine(_AM_WGXPIWIK_STATISTICS, '<label>' . _AM_WGXPIWIK_THEREARE_USERS . '</label>', count($users_list));
+$adminMenu->addInfoBoxLine(_AM_WGXPIWIK_STATISTICS, '<label>' . _AM_WGXPIWIK_THEREARE_PERMS . '</label>', $countPerms);
 // Upload Folders
 
 // Render Index
 echo $adminMenu->addNavigation('index.php');
 echo $adminMenu->renderIndex();
-include __DIR__ .'/footer.php';
+include __DIR__ . '/footer.php';

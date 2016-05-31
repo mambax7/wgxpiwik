@@ -19,16 +19,16 @@
  * @author          Goffy - Wedega.com - Email:<webmaster@wedega.com> - Website:<http://wedega.com>
  * @version         $Id: 1.0 perms.php 1 Fri 2016/01/15 17:40:29Z Goffy - Wedega $
  */
-include_once XOOPS_ROOT_PATH.'/modules/wgxpiwik/include/common.php';
+include_once XOOPS_ROOT_PATH . '/modules/wgxpiwik/include/common.php';
 // Function show block
 function b_wgxpiwik_tracker_show($options)
 {
-    include_once XOOPS_ROOT_PATH.'/modules/wgxpiwik/class/piwik.php';
+    include_once XOOPS_ROOT_PATH . '/modules/wgxpiwik/class/piwik.php';
     
-    $wgxpiwik = WgxpiwikHelper::getInstance();
+    $wgxpiwik           = WgxpiwikHelper::getInstance();
     $piwik_tracker_type = $wgxpiwik->getConfig('piwik_tracker_type');
-    $piwikHandler =& $wgxpiwik->getHandler('piwik');
-    $sites_list = $piwikHandler->wgxpiwikGetPiwikSites();
+    $piwikHandler       =& $wgxpiwik->getHandler('piwik');
+    $sites_list         = $piwikHandler->wgxpiwikGetPiwikSites();
 
     if ($piwik_tracker_type[0] == 3) {      
         // Piwik Image Tracker
@@ -40,13 +40,13 @@ function b_wgxpiwik_tracker_show($options)
         // php-Tracker
         require_once XOOPS_ROOT_PATH . '/modules/wgxpiwik/PiwikTracker.php';
         PiwikTracker::$URL = XOOPS_URL;
-        $block = "";
+        $block = '';
         
     } else {
         // js-tracker
         $piwikHandler =& $wgxpiwik->getHandler('piwik');
-        $sites_list = $piwikHandler->wgxpiwikGetPiwikSites();
-        $block  =  '<!-- Piwik -->';
+        $sites_list   = $piwikHandler->wgxpiwikGetPiwikSites();
+        $block   = '<!-- Piwik -->';
         $block  .= '<script type="text/javascript">';
         $block  .= '   var _paq = _paq || [];';
         $block  .= '   _paq.push(["trackPageView"]);';

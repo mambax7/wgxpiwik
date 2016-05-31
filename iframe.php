@@ -25,16 +25,16 @@ $GLOBALS['xoopsOption']['template_main'] = 'wgxpiwik_iframe.tpl';
 include_once XOOPS_ROOT_PATH .'/header.php';
 // Define Stylesheet
 
-$GLOBALS['xoTheme']->addStylesheet( WGXPIWIK_URL ."/assets/css/style.css");
+$GLOBALS['xoTheme']->addStylesheet( WGXPIWIK_URL .'/assets/css/style.css');
 
 $piwik_period = $wgxpiwik->getConfig('piwik_period');
 $piwik_date   = $wgxpiwik->getConfig('piwik_date');
 
-$sites_list = $piwikHandler->wgxpiwikGetPiwikSites();
-$iframe_src = WGXPIWIK_URL . "/piwik/index.php?module=Widgetize&action=iframe&moduleToWidgetize=Dashboard&actionToWidgetize=index&idSite=";
-$iframe_src .= $sites_list[0]['idsite'];
-$iframe_src .= '&period=' . $piwik_period[0];
-$iframe_src .= '&date=' . $piwik_date[0];
+$sites_list   = $piwikHandler->wgxpiwikGetPiwikSites();
+$iframe_src   = WGXPIWIK_URL . '/piwik/index.php?module=Widgetize&action=iframe&moduleToWidgetize=Dashboard&actionToWidgetize=index&idSite=';
+$iframe_src  .= $sites_list[0]['idsite'];
+$iframe_src  .= '&period=' . $piwik_period[0];
+$iframe_src  .= '&date=' . $piwik_date[0];
 
 $GLOBALS['xoopsTpl']->assign('sites_list', $sites_list);
 $GLOBALS['xoopsTpl']->assign('iframe_src', $iframe_src);

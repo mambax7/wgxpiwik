@@ -30,7 +30,7 @@ class WgxpiwikPerms extends XoopsObject
     */
     private $wgxpiwik = null;
 
-	/*
+    /*
      * Constructor
      *
      * @param null
@@ -42,7 +42,7 @@ class WgxpiwikPerms extends XoopsObject
         $this->initVar('perm_groupid', XOBJ_DTYPE_INT);
         $this->initVar('perm_piwik_login', XOBJ_DTYPE_TXTBOX);
         $this->initVar('perm_weight', XOBJ_DTYPE_INT);
-	}
+    }
 
     /*
     *  @static function &getInstance
@@ -74,13 +74,13 @@ class WgxpiwikPerms extends XoopsObject
         $form->setExtra('enctype="multipart/form-data"');
 
         // Form group name
-        $groups_Handler =& xoops_getModuleHandler("group", "system");
-        $group_obj = $groups_Handler->get($this->getVar('perm_groupid'));
-        $form->addElement( new XoopsFormLabel(_AM_WGXPIWIK_PERM_GROUPID,  $group_obj->getVar("name")));
+        $groups_Handler =& xoops_getModuleHandler('group', 'system');
+        $group_obj      = $groups_Handler->get($this->getVar('perm_groupid'));
+        $form->addElement( new XoopsFormLabel(_AM_WGXPIWIK_PERM_GROUPID,  $group_obj->getVar('name')));
 
-		// Form Select Piwik User        
+        // Form Select Piwik User        
         $piwikHandler =& $this->wgxpiwik->getHandler('piwik');
-        $piwik_users =  $piwikHandler->wgxpiwikGetPiwikUsers();
+        $piwik_users  =  $piwikHandler->wgxpiwikGetPiwikUsers();
         $perm_piwikuserSelect = new XoopsFormSelect(_AM_WGXPIWIK_PERM_PIWIK_LOGIN . _AM_WGXPIWIK_PERM_PIWIK_LOGIN_DESC, 'perm_piwik_login', $this->getVar('perm_piwik_login'));
         $perm_piwikuserSelect->addOption('', 'none');
         foreach ($piwik_users as $puser)
@@ -98,22 +98,24 @@ class WgxpiwikPerms extends XoopsObject
         return $form;
     }
 
-	/**
+    /**
      * Get Values
      */
-	public function getValuesPerms($keys = null, $format = null, $maxDepth = null)
+    public function getValuesPerms($keys = null, $format = null, $maxDepth = null)
     {
-		$ret = $this->getValues($keys, $format, $maxDepth);
-		$ret['id'] = $this->getVar('perm_id');
-		$ret['groupid'] = $this->getVar('perm_groupid');
-        $groups_Handler =& xoops_getModuleHandler("group", "system");
-        $group_obj = $groups_Handler->get($this->getVar('perm_groupid'));
-        $ret['group_name'] = $group_obj->getVar("name");
-        unset($group_obj);
-		$ret['piwik_userid'] = $this->getVar('perm_piwik_login');
-        $ret['weight'] = $this->getVar('perm_weight');
+        $groups_Handler =& xoops_getModuleHandler('group', 'system');
+        $group_obj      = $groups_Handler->get($this->getVar('perm_groupid'));
         
-		return $ret;
+        $ret                 = $this->getValues($keys, $format, $maxDepth);
+        $ret['id']           = $this->getVar('perm_id');
+        $ret['groupid']      = $this->getVar('perm_groupid');
+        $ret['group_name']   = $group_obj->getVar('name');
+        $ret['piwik_userid'] = $this->getVar('perm_piwik_login');
+        $ret['weight']       = $this->getVar('perm_weight');
+        
+        unset($group_obj);
+        
+        return $ret;
     }
 
     /**
@@ -125,8 +127,8 @@ class WgxpiwikPerms extends XoopsObject
     {
         $ret = array();
         $vars = $this->getVars();
-        foreach( array_keys( $vars ) as $var ) {
-            $ret[$var] = $this->getVar( $var );
+        foreach (array_keys($vars) as $var) {
+            $ret[$var] = $this->getVar($var);
         }
         return $ret;
     }
@@ -142,7 +144,7 @@ class WgxpiwikPermsHandler extends XoopsPersistableObjectHandler
     */
     private $wgxpiwik = null;
 
-	/*
+    /*
      * Constructor
      *
      * @param string $db
@@ -150,10 +152,10 @@ class WgxpiwikPermsHandler extends XoopsPersistableObjectHandler
     public function __construct(&$db)
     {
         parent::__construct($db, 'mod_wgxpiwik_perms', 'wgxpiwikperms', 'perm_id', 'perm_groupid');
-		$this->wgxpiwik = WgxpiwikHelper::getInstance();
+        $this->wgxpiwik = WgxpiwikHelper::getInstance();
     }
 
-	/**
+    /**
      * @param bool $isNew
      *
      * @return object
@@ -163,7 +165,7 @@ class WgxpiwikPermsHandler extends XoopsPersistableObjectHandler
         return parent::create($isNew);
     }
 
-	/**
+    /**
      * retrieve a field
      *
      * @param int $i field id
@@ -185,7 +187,7 @@ class WgxpiwikPermsHandler extends XoopsPersistableObjectHandler
         return $this->db->getInsertId();
     }
 
-	/**
+    /**
      * get IDs of objects matching a condition
      *
      * @param object $criteria {@link CriteriaElement} to match
@@ -196,7 +198,7 @@ class WgxpiwikPermsHandler extends XoopsPersistableObjectHandler
         return parent::getIds($criteria);
     }
 
-	/**
+    /**
      * insert a new field in the database
      *
      * @param object $field reference to the {@link TDMCreateFields} object
@@ -222,13 +224,13 @@ class WgxpiwikPermsHandler extends XoopsPersistableObjectHandler
         $criteria->setOrder($order);
         $criteria->setStart($start);
         $criteria->setLimit($limit);
-		return $this->getCount($criteria);
+        return $this->getCount($criteria);
     }
 
-	/**
+    /**
      * Get All Perms
      */
-	public function getAllPerms($start = 0, $limit = 0, $sort = 'perm_id ASC, perm_groupid', $order = 'ASC')
+    public function getAllPerms($start = 0, $limit = 0, $sort = 'perm_id ASC, perm_groupid', $order = 'ASC')
     {
         $criteria = new CriteriaCompo();
         $criteria->setSort($sort);

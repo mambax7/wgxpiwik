@@ -20,24 +20,23 @@
  * @version         $Id: 1.0 header.php 1 Tue 2016/01/12 23:05:11Z Goffy - Wedega $
  */
 
-include dirname(dirname(dirname(__DIR__))). '/include/cp_header.php';
+include dirname(dirname(dirname(__DIR__))) . '/include/cp_header.php';
 $thisPath = dirname(__DIR__);
-include_once $thisPath.'/include/common.php';
-$sysPathIcon16 = '../' . $GLOBALS['xoopsModule']->getInfo('sysicons16');
-$sysPathIcon32 = '../' . $GLOBALS['xoopsModule']->getInfo('sysicons32');
+include_once $thisPath . '/include/common.php';
+$sysPathIcon16   = '../' . $GLOBALS['xoopsModule']->getInfo('sysicons16');
+$sysPathIcon32   = '../' . $GLOBALS['xoopsModule']->getInfo('sysicons32');
 $pathModuleAdmin = $GLOBALS['xoopsModule']->getInfo('dirmoduleadmin');
 //
-$modPathIcon16 = $GLOBALS['xoopsModule']->getInfo('modicons16');
-$modPathIcon32 = $GLOBALS['xoopsModule']->getInfo('modicons32');
+$modPathIcon16   = $GLOBALS['xoopsModule']->getInfo('modicons16');
+$modPathIcon32   = $GLOBALS['xoopsModule']->getInfo('modicons32');
 // Get instance of module
-$wgxpiwik = WgxpiwikHelper::getInstance();
-// $settingsHandler =& $wgxpiwik->getHandler('settings');
+$wgxpiwik     = WgxpiwikHelper::getInstance();
 $piwikHandler =& $wgxpiwik->getHandler('piwik');
 $permsHandler =& $wgxpiwik->getHandler('perms');
 //
 $myts =& MyTextSanitizer::getInstance();
 if (!isset($xoopsTpl) || !is_object($xoopsTpl)) {
-    include_once(XOOPS_ROOT_PATH."/class/template.php");
+    include_once(XOOPS_ROOT_PATH . '/class/template.php');
     $xoopsTpl = new XoopsTpl();
 }
 // System icons path
@@ -51,10 +50,10 @@ $xoopsTpl->assign('modPathIcon32', $modPathIcon32);
 xoops_loadLanguage('admin');
 xoops_loadLanguage('modinfo');
 // Local admin menu class
-if ( file_exists($GLOBALS['xoops']->path($pathModuleAdmin.'/moduleadmin.php'))){
-    include_once $GLOBALS['xoops']->path($pathModuleAdmin.'/moduleadmin.php');
-}else{
-    redirect_header("../../../admin.php", 5, _AM_MODULEADMIN_MISSING, false);
+if ( file_exists($GLOBALS['xoops']->path($pathModuleAdmin . '/moduleadmin.php'))){
+    include_once $GLOBALS['xoops']->path($pathModuleAdmin . '/moduleadmin.php');
+} else {
+    redirect_header('../../../admin.php', 5, _AM_MODULEADMIN_MISSING, false);
 }
 xoops_cp_header();
 $adminMenu = new ModuleAdmin();

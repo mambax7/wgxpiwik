@@ -29,15 +29,15 @@ function xoops_module_update_wgxpiwik(&$module, $prev_version = null)
 {
 
     $ret = null;
-	/*     
-	if ($prev_version < 10) {
+    /*     
+    if ($prev_version < 10) {
         $ret = update_wgxpiwik_v10($module);
     }
     $errors = $module->getErrors();
     if (!empty($errors)) {
         print_r($errors);
     } 
-	*/
+    */
 
     return $ret;
 

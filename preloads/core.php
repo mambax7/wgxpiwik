@@ -25,9 +25,9 @@
  */
 class WgxpiwikCorePreload extends XoopsPreloadItem
 {
-	// Here your functions method
-	// Example:
-	/**
+    // Here your functions method
+    // Example:
+    /**
      * @param $args
      */
     function eventCoreYourNameStart($args)

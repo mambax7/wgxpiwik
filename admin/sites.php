@@ -19,10 +19,10 @@
  * @author          Goffy - Wedega.com - Email:<webmaster@wedega.com> - Website:<http://wedega.com>
  * @version         $Id: 1.0 sites.php 1 Tue 2016/01/12 23:05:11Z Goffy - Wedega $
  */
-include __DIR__ .'/header.php';
+include __DIR__ . '/header.php';
 
 // load module css
-$GLOBALS['xoTheme']->addStylesheet( WGXPIWIK_URL ."/assets/css/style.css");
+$GLOBALS['xoTheme']->addStylesheet( WGXPIWIK_URL . '/assets/css/style.css');
 
 // It recovered the value of argument op in URL$ 
 $op = XoopsRequest::getString('op', 'list');
@@ -30,26 +30,24 @@ $op = XoopsRequest::getString('op', 'list');
 // Switch options
 switch ($op)
 {
-	case 'list':
+    case 'list':
     default:
-        
         $templateMain = 'wgxpiwik_admin_sites.tpl';
-		
-		$GLOBALS['xoopsTpl']->assign('navigation', $adminMenu->addNavigation('sites.php'));
         
+        $GLOBALS['xoopsTpl']->assign('navigation', $adminMenu->addNavigation('sites.php'));
+
         $sites_list = $piwikHandler->wgxpiwikGetPiwikSites();
 
-		
         if ( count($sites_list) == 0) {
-             $GLOBALS['xoopsTpl']->assign('error', _AM_WGXPIWIK_THEREARENT_SITES);
+            $GLOBALS['xoopsTpl']->assign('error', _AM_WGXPIWIK_THEREARENT_SITES);
         } else {
-			$GLOBALS['xoopsTpl']->assign('sites_count', count($sites_list));
-			$GLOBALS['xoopsTpl']->append('sites_list', $sites_list);
-		}
+            $GLOBALS['xoopsTpl']->assign('sites_count', count($sites_list));
+            $GLOBALS['xoopsTpl']->append('sites_list', $sites_list);
+        }
         
         $GLOBALS['xoopsTpl']->assign('wgxpiwik_url', WGXPIWIK_URL);
         $GLOBALS['xoopsTpl']->assign('wgxpiwik_upload_url', WGXPIWIK_UPLOAD_URL);
 
         break;
 }
-include __DIR__ .'/footer.php';
+include __DIR__ . '/footer.php';
