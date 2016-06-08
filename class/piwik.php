@@ -80,10 +80,14 @@ class WgxpiwikPiwikHandler extends XoopsPersistableObjectHandler
         $i = 0;
         $result = $xoopsDB->queryF($sql);
         if($result) {
-            while ($site_item = mysql_fetch_assoc($result)) {
+            foreach ($result as $site_item) {
                 $i++;
                 $sites_list[] = array($i,'idsite' => $site_item['idsite'], 'name' => $site_item['name']);
             }
+            // while ($site_item = mysql_fetch_assoc($result)) {
+                // $i++;
+                // $sites_list[] = array($i,'idsite' => $site_item['idsite'], 'name' => $site_item['name']);
+            // }
         }
         return $sites_list;
     }
@@ -100,7 +104,8 @@ class WgxpiwikPiwikHandler extends XoopsPersistableObjectHandler
         $i = 0;
         $result = $xoopsDB->queryF($sql);
         if($result) {
-            while ($user_item = mysql_fetch_assoc($result)) {
+            // while ($user_item = mysql_fetch_assoc($result)) {
+            foreach ($result as $user_item) {
                 $i++;
                 $users_list[] = array($i,'login' => $user_item['login'], 'pwd' => $user_item['password'], 'alias' => $user_item['alias'], 'token_auth' => $user_item['token_auth'], 'superuser_access' => $user_item['superuser_access']);
             }

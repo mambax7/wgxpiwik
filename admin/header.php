@@ -34,7 +34,7 @@ $wgxpiwik     = WgxpiwikHelper::getInstance();
 $piwikHandler =& $wgxpiwik->getHandler('piwik');
 $permsHandler =& $wgxpiwik->getHandler('perms');
 //
-$myts =& MyTextSanitizer::getInstance();
+$myts = MyTextSanitizer::getInstance();
 if (!isset($xoopsTpl) || !is_object($xoopsTpl)) {
     include_once(XOOPS_ROOT_PATH . '/class/template.php');
     $xoopsTpl = new XoopsTpl();

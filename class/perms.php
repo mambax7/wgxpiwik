@@ -103,7 +103,7 @@ class WgxpiwikPerms extends XoopsObject
      */
     public function getValuesPerms($keys = null, $format = null, $maxDepth = null)
     {
-        $groups_Handler =& xoops_getModuleHandler('group', 'system');
+        $groups_Handler = xoops_getModuleHandler('group', 'system');
         $group_obj      = $groups_Handler->get($this->getVar('perm_groupid'));
         
         $ret                 = $this->getValues($keys, $format, $maxDepth);
@@ -162,7 +162,8 @@ class WgxpiwikPermsHandler extends XoopsPersistableObjectHandler
      */
     public function &create($isNew = true)
     {
-        return parent::create($isNew);
+        $temp = parent::create($isNew);
+        return $temp;
     }
 
     /**
@@ -190,10 +191,10 @@ class WgxpiwikPermsHandler extends XoopsPersistableObjectHandler
     /**
      * get IDs of objects matching a condition
      *
-     * @param object $criteria {@link CriteriaElement} to match
-     * @return array of object IDs
+     * @param  CriteriaElement $criteria {@link CriteriaElement} to match
+     * @return array  of object IDs
      */
-    public function &getIds($criteria)
+    public function &getIds(CriteriaElement $criteria = null)
     {
         return parent::getIds($criteria);
     }
@@ -201,16 +202,17 @@ class WgxpiwikPermsHandler extends XoopsPersistableObjectHandler
     /**
      * insert a new field in the database
      *
-     * @param object $field reference to the {@link TDMCreateFields} object
-     * @param bool $force
+     * @param XoopsObject $field reference to the {@link TDMCreateFields} object
+     * @param bool   $force
      *
      * @return bool FALSE if failed, TRUE if already present and unchanged or successful
      */
-    public function &insert(&$field, $force = false)
+    public function insert(XoopsObject $field, $force = false)
     {
-        if(!parent::insert($field, $force)) {
+        if (!parent::insert($field, $force)) {
             return false;
         }
+
         return true;
     }
 
@@ -239,5 +241,4 @@ class WgxpiwikPermsHandler extends XoopsPersistableObjectHandler
         $criteria->setLimit($limit);
         return $this->getAll($criteria);
     }
-
 }

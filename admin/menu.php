@@ -20,9 +20,9 @@
  * @version         $Id: 1.0 menu.php 1 Tue 2016/01/12 21:02:36Z Goffy - Wedega $
  */
 $dirname        = basename(dirname(__DIR__)) ;
-$module_handler =& xoops_gethandler('module');
-$xoopsModule    =& XoopsModule::getByDirname($dirname);
-$moduleInfo     =& $module_handler->get($xoopsModule->getVar('mid'));
+$module_handler = xoops_gethandler('module');
+$xoopsModule    = XoopsModule::getByDirname($dirname);
+$moduleInfo     = $module_handler->get($xoopsModule->getVar('mid'));
 $sysPathIcon32  = $moduleInfo->getInfo('sysicons32');
 $i = 1;
 $adminmenu[$i]['title'] = _MI_WGXPIWIK_ADMENU1;
