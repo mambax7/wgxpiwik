@@ -27,7 +27,7 @@ function b_wgxpiwik_tracker_show($options)
     
     $wgxpiwik           = WgxpiwikHelper::getInstance();
     $piwik_tracker_type = $wgxpiwik->getConfig('piwik_tracker_type');
-    $piwikHandler       =& $wgxpiwik->getHandler('piwik');
+    $piwikHandler       = $wgxpiwik->getHandler('piwik');
     $sites_list         = $piwikHandler->wgxpiwikGetPiwikSites();
 
     if ($piwik_tracker_type[0] == 3) {      
@@ -44,7 +44,7 @@ function b_wgxpiwik_tracker_show($options)
         
     } else {
         // js-tracker
-        $piwikHandler =& $wgxpiwik->getHandler('piwik');
+        $piwikHandler = $wgxpiwik->getHandler('piwik');
         $sites_list   = $piwikHandler->wgxpiwikGetPiwikSites();
         $block   = '<!-- Piwik -->';
         $block  .= '<script type="text/javascript">';

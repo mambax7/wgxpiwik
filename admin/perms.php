@@ -75,9 +75,9 @@ switch ($op)
             redirect_header('perms.php', 3, implode(',', $GLOBALS['xoopsSecurity']->getErrors()));
         }
         if (isset($permId)) {
-           $permsObj =& $permsHandler->get($permId);
+           $permsObj = $permsHandler->get($permId);
         } else {
-           $permsObj =& $permsHandler->create();
+           $permsObj = $permsHandler->create();
         }
         // Set Vars
         // Set Var perm_groupid

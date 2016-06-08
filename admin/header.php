@@ -30,9 +30,9 @@ $pathModuleAdmin = $GLOBALS['xoopsModule']->getInfo('dirmoduleadmin');
 $modPathIcon16   = $GLOBALS['xoopsModule']->getInfo('modicons16');
 $modPathIcon32   = $GLOBALS['xoopsModule']->getInfo('modicons32');
 // Get instance of module
-$wgxpiwik     = WgxpiwikHelper::getInstance();
-$piwikHandler =& $wgxpiwik->getHandler('piwik');
-$permsHandler =& $wgxpiwik->getHandler('perms');
+$wgxpiwik        = WgxpiwikHelper::getInstance();
+$piwikHandler    = $wgxpiwik->getHandler('piwik');
+$permsHandler    = $wgxpiwik->getHandler('perms');
 //
 $myts = MyTextSanitizer::getInstance();
 if (!isset($xoopsTpl) || !is_object($xoopsTpl)) {
