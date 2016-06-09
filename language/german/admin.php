@@ -104,5 +104,5 @@ define('_AM_WGXPIWIK_PERM_WEIGHT', "Reihung");
 define('_AM_WGXPIWIK_PERM_EDIT', "Berechtigung bearbeiten");
 
 // ---------------- Admin Others ----------------
-define('_AM_WGXPIWIK_MAINTAINEDBY', " is maintained by ");
+define('_AM_WGXPIWIK_MAINTAINEDBY', " wird unterstützt durch <a href='http://wedega.com'>http://wedega.com</a> und <a href='http://xoops.wedega.com'>http://xoops.wedega.com</a>");
 // ---------------- End ----------------
