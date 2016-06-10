@@ -79,7 +79,7 @@ class WgxpiwikPiwikHandler extends XoopsPersistableObjectHandler
         $sites_list = array();
         $i = 0;
         $result = $xoopsDB->queryF($sql);
-        if($result) {
+        if(is_array($result)) {
             foreach ($result as $site_item) {
                 $i++;
                 $sites_list[] = array($i,'idsite' => $site_item['idsite'], 'name' => $site_item['name']);
@@ -103,7 +103,7 @@ class WgxpiwikPiwikHandler extends XoopsPersistableObjectHandler
         $users_list = array();
         $i = 0;
         $result = $xoopsDB->queryF($sql);
-        if($result) {
+        if(is_array($result)) {
             // while ($user_item = mysql_fetch_assoc($result)) {
             foreach ($result as $user_item) {
                 $i++;
