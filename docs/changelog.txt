@@ -1,21 +1,27 @@
 ==============================================================
-Change Log for wgXPiwik - 2016/05/23 19:03:12 Version 1.03
+Change Log for wgXPiwik - 2016/06/10 14:47 Version 1.04 RC1
+==============================================================
+cleaned code for php7
+cosmetics
+
+==============================================================
+Change Log for wgXPiwik - 2016/05/23 19:03 Version 1.03
 ==============================================================
 added french language files (boscorelly)
 
 ==============================================================
-Change Log for wgXPiwik - 2016/03/26 10:43:12 Version 1.02
+Change Log for wgXPiwik - 2016/03/26 10:43 Version 1.02
 ==============================================================
  - added german langs (goffy)
  - cosmetic changes in admin area (goffy)
  - updated Piwik to version 2.16
  
 ==============================================================
-Change Log for wgXPiwik - 2016/01/25 23:05:12 Version 1.01
+Change Log for wgXPiwik - 2016/01/25 23:05 Version 1.01
 ==============================================================
  - fixed bug in block with tracker (goffy)
  
 ==============================================================
-Change Log for wgXPiwik - 2016/01/12 23:05:12 Version 1.0
+Change Log for wgXPiwik - 2016/01/12 23:05 Version 1.0
 ==============================================================
  - Original release wgxpiwik (Goffy - Wedega.com)
