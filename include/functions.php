@@ -38,8 +38,8 @@ function wgxpiwik_CleanVars( &$global, $key, $default = '', $type = 'int' ) {
 function wgxpiwikMetaKeywords($content)
 {
     global $xoopsTpl, $xoTheme;
-    $myts =& MyTextSanitizer::getInstance();
-    $content= $myts->undoHtmlSpecialChars($myts->displayTarea($content));
+    $myts = MyTextSanitizer::getInstance();
+    $content = $myts->undoHtmlSpecialChars($myts->displayTarea($content));
     if (isset($xoTheme) && is_object($xoTheme)) {
         $xoTheme->addMeta( 'meta', 'keywords', strip_tags($content));
     } else {    // Compatibility for old Xoops versions
@@ -50,7 +50,7 @@ function wgxpiwikMetaKeywords($content)
 function wgxpiwikMetaDescription($content)
 {
     global $xoopsTpl, $xoTheme;
-    $myts =& MyTextSanitizer::getInstance();
+    $myts = MyTextSanitizer::getInstance();
     $content = $myts->undoHtmlSpecialChars($myts->displayTarea($content));
     if (isset($xoTheme) && is_object($xoTheme)) {
         $xoTheme->addMeta( 'meta', 'description', strip_tags($content));

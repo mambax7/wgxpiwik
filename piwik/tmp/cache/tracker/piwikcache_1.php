@@ -1,5 +1,5 @@
 <?php return array (
-  'lifetime' => 1459515852,
+  'lifetime' => 1465389122,
   'data' => 
   array (
     'goals' => 
@@ -10,7 +10,7 @@
     ),
     'urls' => 
     array (
-      0 => 'http://localhost/wgxpiwik/htdocs',
+      0 => 'http://localhost/xoops258/htdocs',
     ),
     'hosts' => 
     array (
@@ -43,6 +43,6 @@
       0 => '',
     ),
     'timezone' => 'Europe/Vienna',
-    'ts_created' => '2016-03-31 00:00:00',
+    'ts_created' => '2016-06-08 12:27:02',
   ),
 );

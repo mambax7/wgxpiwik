@@ -1,9 +1,9 @@
 <?php return array (
-  'lifetime' => 1459515852,
+  'lifetime' => 1470723259,
   'data' => 
   array (
     'isBrowserTriggerEnabled' => true,
-    'lastTrackerCronRun' => 1459515552,
+    'lastTrackerCronRun' => 1470722959,
     'allUrlsByHostAndIdSite' => 
     array (
       'localhost' => 
@@ -19,6 +19,5 @@
     'PrivacyManager.ipAddressMaskLength' => 2,
     'PrivacyManager.doNotTrackEnabled' => true,
     'PrivacyManager.ipAnonymizerEnabled' => true,
-    'CustomVariables.NumUsableCustomVariables' => 5,
   ),
 );

@@ -1,5 +1,5 @@
 <?php return array (
-  'lifetime' => 1459558753,
+  'lifetime' => 1470761831,
   'data' => 
   array (
     'PluginCorePluginsAdminMetadata' => 
@@ -1169,20 +1169,20 @@
     ),
     'PluginCoreHomeColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/IdSite.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\IdSite',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/UserId.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\UserId',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitFirstActionTime.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitFirstActionTime',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitGoalBuyer.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitGoalBuyer',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitGoalConverted.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitGoalConverted',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitId.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitId',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitIp.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitIp',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitLastActionTime.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitLastActionTime',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitTotalTime.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitTotalTime',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitorDaysSinceFirst.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitorDaysSinceFirst',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitorDaysSinceOrder.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitorDaysSinceOrder',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitorId.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitorId',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitorReturning.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitorReturning',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitsCount.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitsCount',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/IdSite.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\IdSite',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/UserId.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\UserId',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitFirstActionTime.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitFirstActionTime',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitGoalBuyer.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitGoalBuyer',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitGoalConverted.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitGoalConverted',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitId.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitId',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitIp.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitIp',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitLastActionTime.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitLastActionTime',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitTotalTime.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitTotalTime',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitorDaysSinceFirst.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitorDaysSinceFirst',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitorDaysSinceOrder.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitorDaysSinceOrder',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitorId.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitorId',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitorReturning.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitorReturning',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitsCount.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitsCount',
     ),
     'PluginWebsiteMeasurableColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
@@ -1267,12 +1267,12 @@
     ),
     'PluginActionsColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/EntryPageTitle.php' => 'Piwik\\Plugins\\Actions\\Columns\\EntryPageTitle',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/EntryPageUrl.php' => 'Piwik\\Plugins\\Actions\\Columns\\EntryPageUrl',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ExitPageTitle.php' => 'Piwik\\Plugins\\Actions\\Columns\\ExitPageTitle',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ExitPageUrl.php' => 'Piwik\\Plugins\\Actions\\Columns\\ExitPageUrl',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/VisitTotalActions.php' => 'Piwik\\Plugins\\Actions\\Columns\\VisitTotalActions',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/VisitTotalSearches.php' => 'Piwik\\Plugins\\Actions\\Columns\\VisitTotalSearches',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/EntryPageTitle.php' => 'Piwik\\Plugins\\Actions\\Columns\\EntryPageTitle',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/EntryPageUrl.php' => 'Piwik\\Plugins\\Actions\\Columns\\EntryPageUrl',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ExitPageTitle.php' => 'Piwik\\Plugins\\Actions\\Columns\\ExitPageTitle',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ExitPageUrl.php' => 'Piwik\\Plugins\\Actions\\Columns\\ExitPageUrl',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/VisitTotalActions.php' => 'Piwik\\Plugins\\Actions\\Columns\\VisitTotalActions',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/VisitTotalSearches.php' => 'Piwik\\Plugins\\Actions\\Columns\\VisitTotalSearches',
     ),
     'PluginDashboardColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
@@ -1294,27 +1294,27 @@
     ),
     'PluginReferrersColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/Campaign.php' => 'Piwik\\Plugins\\Referrers\\Columns\\Campaign',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/Keyword.php' => 'Piwik\\Plugins\\Referrers\\Columns\\Keyword',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/ReferrerName.php' => 'Piwik\\Plugins\\Referrers\\Columns\\ReferrerName',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/ReferrerType.php' => 'Piwik\\Plugins\\Referrers\\Columns\\ReferrerType',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/ReferrerUrl.php' => 'Piwik\\Plugins\\Referrers\\Columns\\ReferrerUrl',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/Website.php' => 'Piwik\\Plugins\\Referrers\\Columns\\Website',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/Campaign.php' => 'Piwik\\Plugins\\Referrers\\Columns\\Campaign',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/Keyword.php' => 'Piwik\\Plugins\\Referrers\\Columns\\Keyword',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/ReferrerName.php' => 'Piwik\\Plugins\\Referrers\\Columns\\ReferrerName',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/ReferrerType.php' => 'Piwik\\Plugins\\Referrers\\Columns\\ReferrerType',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/ReferrerUrl.php' => 'Piwik\\Plugins\\Referrers\\Columns\\ReferrerUrl',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/Website.php' => 'Piwik\\Plugins\\Referrers\\Columns\\Website',
     ),
     'PluginUserLanguageColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserLanguage/Columns/Language.php' => 'Piwik\\Plugins\\UserLanguage\\Columns\\Language',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserLanguage/Columns/Language.php' => 'Piwik\\Plugins\\UserLanguage\\Columns\\Language',
     ),
     'PluginDevicesDetectionColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/BrowserEngine.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\BrowserEngine',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/BrowserName.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\BrowserName',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/BrowserVersion.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\BrowserVersion',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/DeviceBrand.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\DeviceBrand',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/DeviceModel.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\DeviceModel',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/DeviceType.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\DeviceType',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/Os.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\Os',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/OsVersion.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\OsVersion',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/BrowserEngine.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\BrowserEngine',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/BrowserName.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\BrowserName',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/BrowserVersion.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\BrowserVersion',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/DeviceBrand.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\DeviceBrand',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/DeviceModel.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\DeviceModel',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/DeviceType.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\DeviceType',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/Os.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\Os',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/OsVersion.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\OsVersion',
     ),
     'PluginGoalsColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
@@ -1330,11 +1330,11 @@
     ),
     'PluginEcommerceColumns\\Piwik\\Plugin\\Dimension\\ConversionDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/Revenue.php' => 'Piwik\\Plugins\\Ecommerce\\Columns\\Revenue',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/RevenueDiscount.php' => 'Piwik\\Plugins\\Ecommerce\\Columns\\RevenueDiscount',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/RevenueShipping.php' => 'Piwik\\Plugins\\Ecommerce\\Columns\\RevenueShipping',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/RevenueSubtotal.php' => 'Piwik\\Plugins\\Ecommerce\\Columns\\RevenueSubtotal',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/RevenueTax.php' => 'Piwik\\Plugins\\Ecommerce\\Columns\\RevenueTax',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/Revenue.php' => 'Piwik\\Plugins\\Ecommerce\\Columns\\Revenue',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/RevenueDiscount.php' => 'Piwik\\Plugins\\Ecommerce\\Columns\\RevenueDiscount',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/RevenueShipping.php' => 'Piwik\\Plugins\\Ecommerce\\Columns\\RevenueShipping',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/RevenueSubtotal.php' => 'Piwik\\Plugins\\Ecommerce\\Columns\\RevenueSubtotal',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/RevenueTax.php' => 'Piwik\\Plugins\\Ecommerce\\Columns\\RevenueTax',
     ),
     'PluginSEOColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
@@ -1347,16 +1347,16 @@
     ),
     'PluginEventsColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Columns/TotalEvents.php' => 'Piwik\\Plugins\\Events\\Columns\\TotalEvents',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Columns/TotalEvents.php' => 'Piwik\\Plugins\\Events\\Columns\\TotalEvents',
     ),
     'PluginUserCountryColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/City.php' => 'Piwik\\Plugins\\UserCountry\\Columns\\City',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Country.php' => 'Piwik\\Plugins\\UserCountry\\Columns\\Country',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Latitude.php' => 'Piwik\\Plugins\\UserCountry\\Columns\\Latitude',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Longitude.php' => 'Piwik\\Plugins\\UserCountry\\Columns\\Longitude',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Provider.php' => 'Piwik\\Plugins\\UserCountry\\Columns\\Provider',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Region.php' => 'Piwik\\Plugins\\UserCountry\\Columns\\Region',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/City.php' => 'Piwik\\Plugins\\UserCountry\\Columns\\City',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Country.php' => 'Piwik\\Plugins\\UserCountry\\Columns\\Country',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Latitude.php' => 'Piwik\\Plugins\\UserCountry\\Columns\\Latitude',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Longitude.php' => 'Piwik\\Plugins\\UserCountry\\Columns\\Longitude',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Provider.php' => 'Piwik\\Plugins\\UserCountry\\Columns\\Provider',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Region.php' => 'Piwik\\Plugins\\UserCountry\\Columns\\Region',
     ),
     'PluginVisitsSummaryColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
@@ -1378,12 +1378,12 @@
     ),
     'PluginVisitTimeColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitTime/Columns/LocalTime.php' => 'Piwik\\Plugins\\VisitTime\\Columns\\LocalTime',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitTime/Columns/ServerTime.php' => 'Piwik\\Plugins\\VisitTime\\Columns\\ServerTime',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitTime/Columns/LocalTime.php' => 'Piwik\\Plugins\\VisitTime\\Columns\\LocalTime',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitTime/Columns/ServerTime.php' => 'Piwik\\Plugins\\VisitTime\\Columns\\ServerTime',
     ),
     'PluginVisitorInterestColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitorInterest/Columns/VisitsByDaysSinceLastVisit.php' => 'Piwik\\Plugins\\VisitorInterest\\Columns\\VisitsByDaysSinceLastVisit',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitorInterest/Columns/VisitsByDaysSinceLastVisit.php' => 'Piwik\\Plugins\\VisitorInterest\\Columns\\VisitsByDaysSinceLastVisit',
     ),
     'PluginExampleAPIColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
@@ -1495,9 +1495,9 @@
     ),
     'PluginCustomVariablesColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CustomVariables/Columns/Base.php' => 'Piwik\\Plugins\\CustomVariables\\Columns\\Base',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CustomVariables/Columns/CustomVariableName.php' => 'Piwik\\Plugins\\CustomVariables\\Columns\\CustomVariableName',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CustomVariables/Columns/CustomVariableValue.php' => 'Piwik\\Plugins\\CustomVariables\\Columns\\CustomVariableValue',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CustomVariables/Columns/Base.php' => 'Piwik\\Plugins\\CustomVariables\\Columns\\Base',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CustomVariables/Columns/CustomVariableName.php' => 'Piwik\\Plugins\\CustomVariables\\Columns\\CustomVariableName',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CustomVariables/Columns/CustomVariableValue.php' => 'Piwik\\Plugins\\CustomVariables\\Columns\\CustomVariableValue',
     ),
     'PluginPrivacyManagerColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
@@ -1573,10 +1573,10 @@
     ),
     'PluginContentsColumns\\Piwik\\Plugin\\Dimension\\ActionDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/ContentInteraction.php' => 'Piwik\\Plugins\\Contents\\Columns\\ContentInteraction',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/ContentName.php' => 'Piwik\\Plugins\\Contents\\Columns\\ContentName',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/ContentPiece.php' => 'Piwik\\Plugins\\Contents\\Columns\\ContentPiece',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/ContentTarget.php' => 'Piwik\\Plugins\\Contents\\Columns\\ContentTarget',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/ContentInteraction.php' => 'Piwik\\Plugins\\Contents\\Columns\\ContentInteraction',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/ContentName.php' => 'Piwik\\Plugins\\Contents\\Columns\\ContentName',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/ContentPiece.php' => 'Piwik\\Plugins\\Contents\\Columns\\ContentPiece',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/ContentTarget.php' => 'Piwik\\Plugins\\Contents\\Columns\\ContentTarget',
     ),
     'PluginBulkTrackingColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
@@ -1586,20 +1586,20 @@
     ),
     'PluginResolutionColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Resolution/Columns/Resolution.php' => 'Piwik\\Plugins\\Resolution\\Columns\\Resolution',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Resolution/Columns/Resolution.php' => 'Piwik\\Plugins\\Resolution\\Columns\\Resolution',
     ),
     'PluginDevicePluginsColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginCookie.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginCookie',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginDirector.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginDirector',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginFlash.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginFlash',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginGears.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginGears',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginJava.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginJava',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginPdf.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginPdf',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginQuickTime.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginQuickTime',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginRealPlayer.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginRealPlayer',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginSilverlight.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginSilverlight',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginWindowsMedia.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginWindowsMedia',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginCookie.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginCookie',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginDirector.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginDirector',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginFlash.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginFlash',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginGears.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginGears',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginJava.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginJava',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginPdf.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginPdf',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginQuickTime.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginQuickTime',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginRealPlayer.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginRealPlayer',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginSilverlight.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginSilverlight',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginWindowsMedia.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginWindowsMedia',
     ),
     'PluginIntlColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
@@ -1645,11 +1645,11 @@
     ),
     'PluginCoreHomeTrackerPiwik\\Tracker\\RequestProcessor' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Tracker/VisitRequestProcessor.php' => 'Piwik\\Plugins\\CoreHome\\Tracker\\VisitRequestProcessor',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Tracker/VisitRequestProcessor.php' => 'Piwik\\Plugins\\CoreHome\\Tracker\\VisitRequestProcessor',
     ),
     'PluginActionsTrackerPiwik\\Tracker\\RequestProcessor' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Tracker/ActionsRequestProcessor.php' => 'Piwik\\Plugins\\Actions\\Tracker\\ActionsRequestProcessor',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Tracker/ActionsRequestProcessor.php' => 'Piwik\\Plugins\\Actions\\Tracker\\ActionsRequestProcessor',
     ),
     'PluginReferrersTrackerPiwik\\Tracker\\RequestProcessor' => 
     array (
@@ -1662,11 +1662,11 @@
     ),
     'PluginGoalsTrackerPiwik\\Tracker\\RequestProcessor' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Tracker/GoalsRequestProcessor.php' => 'Piwik\\Plugins\\Goals\\Tracker\\GoalsRequestProcessor',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Tracker/GoalsRequestProcessor.php' => 'Piwik\\Plugins\\Goals\\Tracker\\GoalsRequestProcessor',
     ),
     'PluginEcommerceTrackerPiwik\\Tracker\\RequestProcessor' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Tracker/EcommerceRequestProcessor.php' => 'Piwik\\Plugins\\Ecommerce\\Tracker\\EcommerceRequestProcessor',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Tracker/EcommerceRequestProcessor.php' => 'Piwik\\Plugins\\Ecommerce\\Tracker\\EcommerceRequestProcessor',
     ),
     'PluginEventsTrackerPiwik\\Tracker\\RequestProcessor' => 
     array (
@@ -1688,11 +1688,11 @@
     ),
     'PluginSitesManagerTrackerPiwik\\Tracker\\RequestProcessor' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/SitesManager/Tracker/SitesManagerRequestProcessor.php' => 'Piwik\\Plugins\\SitesManager\\Tracker\\SitesManagerRequestProcessor',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/SitesManager/Tracker/SitesManagerRequestProcessor.php' => 'Piwik\\Plugins\\SitesManager\\Tracker\\SitesManagerRequestProcessor',
     ),
     'PluginCustomVariablesTrackerPiwik\\Tracker\\RequestProcessor' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CustomVariables/Tracker/CustomVariablesRequestProcessor.php' => 'Piwik\\Plugins\\CustomVariables\\Tracker\\CustomVariablesRequestProcessor',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CustomVariables/Tracker/CustomVariablesRequestProcessor.php' => 'Piwik\\Plugins\\CustomVariables\\Tracker\\CustomVariablesRequestProcessor',
     ),
     'PluginPrivacyManagerTrackerPiwik\\Tracker\\RequestProcessor' => 
     array (
@@ -1711,7 +1711,7 @@
     ),
     'PluginHeartbeatTrackerPiwik\\Tracker\\RequestProcessor' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Heartbeat/Tracker/PingRequestProcessor.php' => 'Piwik\\Plugins\\Heartbeat\\Tracker\\PingRequestProcessor',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Heartbeat/Tracker/PingRequestProcessor.php' => 'Piwik\\Plugins\\Heartbeat\\Tracker\\PingRequestProcessor',
     ),
     'DeviceDetector-351regexes-bot' => 
     array (
@@ -14578,460 +14578,6 @@
           ),
         ),
       ),
-    ),
-    'ReferrerSpamFilter-referrer_spam_blacklist' => 
-    array (
-      0 => '0n-line.tv',
-      1 => '100dollars-seo.com',
-      2 => '12masterov.com',
-      3 => '1pamm.ru',
-      4 => '1webmaster.ml',
-      5 => '2your.site',
-      6 => '4webmasters.org',
-      7 => '5forex.ru',
-      8 => '7makemoneyonline.com',
-      9 => '7zap.com',
-      10 => 'acads.net',
-      11 => 'acunetix-referrer.com',
-      12 => 'adcash.com',
-      13 => 'adf.ly',
-      14 => 'adspart.com',
-      15 => 'adventureparkcostarica.com',
-      16 => 'adviceforum.info',
-      17 => 'affordablewebsitesandmobileapps.com',
-      18 => 'afora.ru',
-      19 => 'akuhni.by',
-      20 => 'alibestsale.com',
-      21 => 'allknow.info',
-      22 => 'allnews.md',
-      23 => 'allwomen.info',
-      24 => 'alpharma.net',
-      25 => 'altermix.ua',
-      26 => 'amt-k.ru',
-      27 => 'anal-acrobats.hol.es',
-      28 => 'anapa-inns.ru',
-      29 => 'android-style.com',
-      30 => 'anticrawler.org',
-      31 => 'arendakvartir.kz',
-      32 => 'arkkivoltti.net',
-      33 => 'artparquet.ru',
-      34 => 'aruplighting.com',
-      35 => 'autovideobroadcast.com',
-      36 => 'aviva-limoux.com',
-      37 => 'azartclub.org',
-      38 => 'baixar-musicas-gratis.com',
-      39 => 'baladur.ru',
-      40 => 'balitouroffice.com',
-      41 => 'bard-real.com.ua',
-      42 => 'best-seo-offer.com',
-      43 => 'best-seo-software.xyz',
-      44 => 'best-seo-solution.com',
-      45 => 'bestmobilityscooterstoday.com',
-      46 => 'bestwebsitesawards.com',
-      47 => 'bif-ru.info',
-      48 => 'biglistofwebsites.com',
-      49 => 'billiard-classic.com.ua',
-      50 => 'bizru.info',
-      51 => 'black-friday.ga',
-      52 => 'blackhatworth.com',
-      53 => 'blogtotal.de',
-      54 => 'blue-square.biz',
-      55 => 'bluerobot.info',
-      56 => 'brakehawk.com',
-      57 => 'break-the-chains.com',
-      58 => 'brk-rti.ru',
-      59 => 'brothers-smaller.ru',
-      60 => 'budmavtomatika.com.ua',
-      61 => 'burger-imperia.com',
-      62 => 'buttons-for-website.com',
-      63 => 'buttons-for-your-website.com',
-      64 => 'buy-cheap-online.info',
-      65 => 'buy-forum.ru',
-      66 => 'cardiosport.com.ua',
-      67 => 'cartechnic.ru',
-      68 => 'cenokos.ru',
-      69 => 'cenoval.ru',
-      70 => 'cezartabac.ro',
-      71 => 'chinese-amezon.com',
-      72 => 'ci.ua',
-      73 => 'cityadspix.com',
-      74 => 'civilwartheater.com',
-      75 => 'clicksor.com',
-      76 => 'coderstate.com',
-      77 => 'codysbbq.com',
-      78 => 'conciergegroup.org',
-      79 => 'connectikastudio.com',
-      80 => 'copyrightclaims.org',
-      81 => 'covadhosting.biz',
-      82 => 'cubook.supernew.org',
-      83 => 'customsua.com.ua',
-      84 => 'cyber-monday.ga',
-      85 => 'dailyrank.net',
-      86 => 'darodar.com',
-      87 => 'dbutton.net',
-      88 => 'delfin-aqua.com.ua',
-      89 => 'demenageur.com',
-      90 => 'descargar-musica-gratis.net',
-      91 => 'detskie-konstruktory.ru',
-      92 => 'dipstar.org',
-      93 => 'djekxa.ru',
-      94 => 'dktr.ru',
-      95 => 'dojki-hd.com',
-      96 => 'domination.ml',
-      97 => 'doska-vsem.ru',
-      98 => 'dostavka-v-krym.com',
-      99 => 'drupa.com',
-      100 => 'dvr.biz.ua',
-      101 => 'e-buyeasy.com',
-      102 => 'e-kwiaciarz.pl',
-      103 => 'ecomp3.ru',
-      104 => 'econom.co',
-      105 => 'edakgfvwql.ru',
-      106 => 'egovaleo.it',
-      107 => 'ekto.ee',
-      108 => 'elmifarhangi.com',
-      109 => 'erot.co',
-      110 => 'escort-russian.com',
-      111 => 'este-line.com.ua',
-      112 => 'euromasterclass.ru',
-      113 => 'europages.com.ru',
-      114 => 'eurosamodelki.ru',
-      115 => 'event-tracking.com',
-      116 => 'fast-wordpress-start.com',
-      117 => 'fbdownloader.com',
-      118 => 'floating-share-buttons.com',
-      119 => 'for-your.website',
-      120 => 'forex-procto.ru',
-      121 => 'forsex.info',
-      122 => 'forum69.info',
-      123 => 'free-floating-buttons.com',
-      124 => 'free-share-buttons.com',
-      125 => 'free-social-buttons.com',
-      126 => 'freewhatsappload.com',
-      127 => 'fsalas.com',
-      128 => 'generalporn.org',
-      129 => 'germes-trans.com',
-      130 => 'get-free-social-traffic.com',
-      131 => 'get-free-traffic-now.com',
-      132 => 'get-your-social-buttons.info',
-      133 => 'ghazel.ru',
-      134 => 'girlporn.ru',
-      135 => 'gkvector.ru',
-      136 => 'glavprofit.ru',
-      137 => 'gobongo.info',
-      138 => 'goodprotein.ru',
-      139 => 'googlemare.com',
-      140 => 'googlsucks.com',
-      141 => 'guardlink.org',
-      142 => 'handicapvantoday.com',
-      143 => 'hdmoviecamera.net',
-      144 => 'hongfanji.com',
-      145 => 'hosting-tracker.com',
-      146 => 'howopen.ru',
-      147 => 'howtostopreferralspam.eu',
-      148 => 'hulfingtonpost.com',
-      149 => 'humanorightswatch.org',
-      150 => 'hundejo.com',
-      151 => 'hvd-store.com',
-      152 => 'ico.re',
-      153 => 'igru-xbox.net',
-      154 => 'iloveitaly.ro',
-      155 => 'iloveitaly.ru',
-      156 => 'ilovevitaly.co',
-      157 => 'ilovevitaly.com',
-      158 => 'ilovevitaly.info',
-      159 => 'ilovevitaly.org',
-      160 => 'ilovevitaly.ru',
-      161 => 'iminent.com',
-      162 => 'imperiafilm.ru',
-      163 => 'investpamm.ru',
-      164 => 'iskalko.ru',
-      165 => 'ispaniya-costa-blanca.ru',
-      166 => 'it-max.com.ua',
-      167 => 'jjbabskoe.ru',
-      168 => 'justprofit.xyz',
-      169 => 'kabbalah-red-bracelets.com',
-      170 => 'kambasoft.com',
-      171 => 'kazrent.com',
-      172 => 'kino-fun.ru',
-      173 => 'kino-key.info',
-      174 => 'kinopolet.net',
-      175 => 'knigonosha.net',
-      176 => 'konkursov.net',
-      177 => 'laxdrills.com',
-      178 => 'littleberry.ru',
-      179 => 'livefixer.com',
-      180 => 'lsex.xyz',
-      181 => 'luxup.ru',
-      182 => 'makemoneyonline.com',
-      183 => 'manualterap.roleforum.ru',
-      184 => 'maridan.com.ua',
-      185 => 'masterseek.com',
-      186 => 'mebelcomplekt.ru',
-      187 => 'mebeldekor.com.ua',
-      188 => 'med-zdorovie.com.ua',
-      189 => 'minegam.com',
-      190 => 'mirobuvi.com.ua',
-      191 => 'mirtorrent.net',
-      192 => 'mobilemedia.md',
-      193 => 'moyakuhnia.ru',
-      194 => 'muscle-factory.com.ua',
-      195 => 'myftpupload.com',
-      196 => 'niki-mlt.ru',
-      197 => 'novosti-hi-tech.ru',
-      198 => 'nufaq.com',
-      199 => 'o-o-6-o-o.com',
-      200 => 'o-o-6-o-o.ru',
-      201 => 'o-o-8-o-o.com',
-      202 => 'o-o-8-o-o.ru',
-      203 => 'online-hit.info',
-      204 => 'onlinetvseries.me',
-      205 => 'onlywoman.org',
-      206 => 'ooo-olni.ru',
-      207 => 'ozas.net',
-      208 => 'palvira.com.ua',
-      209 => 'petrovka-online.com',
-      210 => 'photokitchendesign.com',
-      211 => 'pizza-imperia.com',
-      212 => 'pizza-tycoon.com',
-      213 => 'pops.foundation',
-      214 => 'pornhub-forum.ga',
-      215 => 'pornhub-forum.uni.me',
-      216 => 'pornhub-ru.com',
-      217 => 'pornoforadult.com',
-      218 => 'portnoff.od.ua',
-      219 => 'pozdravleniya-c.ru',
-      220 => 'priceg.com',
-      221 => 'pricheski-video.com',
-      222 => 'prlog.ru',
-      223 => 'producm.ru',
-      224 => 'prodvigator.ua',
-      225 => 'prointer.net.ua',
-      226 => 'promoforum.ru',
-      227 => 'psa48.ru',
-      228 => 'qualitymarketzone.com',
-      229 => 'quit-smoking.ga',
-      230 => 'qwesa.ru',
-      231 => 'rankings-analytics.com',
-      232 => 'ranksonic.info',
-      233 => 'ranksonic.net',
-      234 => 'ranksonic.org',
-      235 => 'rapidgator-porn.ga',
-      236 => 'rcb101.ru',
-      237 => 'rednise.com',
-      238 => 'research.ifmo.ru',
-      239 => 'resellerclub.com',
-      240 => 'reversing.cc',
-      241 => 'rightenergysolutions.com.au',
-      242 => 'rospromtest.ru',
-      243 => 'rusexy.xyz',
-      244 => 'sady-urala.ru',
-      245 => 'sanjosestartups.com',
-      246 => 'santasgift.ml',
-      247 => 'savetubevideo.com',
-      248 => 'screentoolkit.com',
-      249 => 'scripted.com',
-      250 => 'search-error.com',
-      251 => 'semalt.com',
-      252 => 'semaltmedia.com',
-      253 => 'seo-platform.com',
-      254 => 'seo-smm.kz',
-      255 => 'seoanalyses.com',
-      256 => 'seoexperimenty.ru',
-      257 => 'seopub.net',
-      258 => 'sexyali.com',
-      259 => 'sexyteens.hol.es',
-      260 => 'share-buttons.xyz',
-      261 => 'sharebutton.net',
-      262 => 'sharebutton.to',
-      263 => 'shop.xz618.com',
-      264 => 'sibecoprom.ru',
-      265 => 'simple-share-buttons.com',
-      266 => 'siteripz.net',
-      267 => 'sitevaluation.org',
-      268 => 'sledstvie-veli.net',
-      269 => 'slftsdybbg.ru',
-      270 => 'slkrm.ru',
-      271 => 'smailik.org',
-      272 => 'snip.to',
-      273 => 'snip.tw',
-      274 => 'soaksoak.ru',
-      275 => 'social-buttons.com',
-      276 => 'socialseet.ru',
-      277 => 'sohoindia.net',
-      278 => 'solnplast.ru',
-      279 => 'sosdepotdebilan.com',
-      280 => 'spravka130.ru',
-      281 => 'steame.ru',
-      282 => 'success-seo.com',
-      283 => 'superiends.org',
-      284 => 'taihouse.ru',
-      285 => 'tattooha.com',
-      286 => 'tedxrj.com',
-      287 => 'theguardlan.com',
-      288 => 'tomck.com',
-      289 => 'top1-seo-service.com',
-      290 => 'topseoservices.co',
-      291 => 'traffic2cash.org',
-      292 => 'traffic2cash.xyz',
-      293 => 'traffic2money.com',
-      294 => 'trafficgenius.xyz',
-      295 => 'trafficmonetize.org',
-      296 => 'trafficmonetizer.org',
-      297 => 'trion.od.ua',
-      298 => 'uasb.ru',
-      299 => 'uptimechecker.com',
-      300 => 'uzungil.com',
-      301 => 'video--production.com',
-      302 => 'video-woman.com',
-      303 => 'videos-for-your-business.com',
-      304 => 'viel.su',
-      305 => 'viktoria-center.ru',
-      306 => 'vodaodessa.com',
-      307 => 'vodkoved.ru',
-      308 => 'w3javascript.com',
-      309 => 'webmaster-traffic.com',
-      310 => 'webmonetizer.net',
-      311 => 'website-analyzer.info',
-      312 => 'websites-reviews.com',
-      313 => 'websocial.me',
-      314 => 'wmasterlead.com',
-      315 => 'wordpress-crew.net',
-      316 => 'ykecwqlixx.ru',
-      317 => 'youporn-forum.ga',
-      318 => 'youporn-forum.uni.me',
-      319 => 'youporn-ru.com',
-      320 => 'yourserverisdown.com',
-      321 => 'zastroyka.org',
-      322 => 'грузоподъемные-машины.рф',
-      323 => 'лечениенаркомании.com',
-      324 => 'непереводимая.рф',
-      325 => 'профмонтаж-врн.рф',
-      326 => 'снятьдомвсевастополе.рф',
-      327 => 'холодныйобзвон.рф',
-      328 => 'годом.рф',
-    ),
-    'PluginHeartbeatColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
-    array (
-    ),
-    'PluginCoreHomeActions\\Piwik\\Tracker\\Action' => 
-    array (
-    ),
-    'PluginActionsActions\\Piwik\\Tracker\\Action' => 
-    array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Actions/ActionClickUrl.php' => 'Piwik\\Plugins\\Actions\\Actions\\ActionClickUrl',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Actions/ActionDownloadUrl.php' => 'Piwik\\Plugins\\Actions\\Actions\\ActionDownloadUrl',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Actions/ActionSiteSearch.php' => 'Piwik\\Plugins\\Actions\\Actions\\ActionSiteSearch',
-    ),
-    'PluginReferrersActions\\Piwik\\Tracker\\Action' => 
-    array (
-    ),
-    'PluginUserLanguageActions\\Piwik\\Tracker\\Action' => 
-    array (
-    ),
-    'PluginDevicesDetectionActions\\Piwik\\Tracker\\Action' => 
-    array (
-    ),
-    'PluginGoalsActions\\Piwik\\Tracker\\Action' => 
-    array (
-    ),
-    'PluginEcommerceActions\\Piwik\\Tracker\\Action' => 
-    array (
-    ),
-    'PluginEventsActions\\Piwik\\Tracker\\Action' => 
-    array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Actions/ActionEvent.php' => 'Piwik\\Plugins\\Events\\Actions\\ActionEvent',
-    ),
-    'PluginUserCountryActions\\Piwik\\Tracker\\Action' => 
-    array (
-    ),
-    'PluginVisitTimeActions\\Piwik\\Tracker\\Action' => 
-    array (
-    ),
-    'PluginVisitorInterestActions\\Piwik\\Tracker\\Action' => 
-    array (
-    ),
-    'PluginLoginActions\\Piwik\\Tracker\\Action' => 
-    array (
-    ),
-    'PluginUsersManagerActions\\Piwik\\Tracker\\Action' => 
-    array (
-    ),
-    'PluginSitesManagerActions\\Piwik\\Tracker\\Action' => 
-    array (
-    ),
-    'PluginCustomVariablesActions\\Piwik\\Tracker\\Action' => 
-    array (
-    ),
-    'PluginPrivacyManagerActions\\Piwik\\Tracker\\Action' => 
-    array (
-    ),
-    'PluginContentsActions\\Piwik\\Tracker\\Action' => 
-    array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Actions/ActionContent.php' => 'Piwik\\Plugins\\Contents\\Actions\\ActionContent',
-    ),
-    'PluginBulkTrackingActions\\Piwik\\Tracker\\Action' => 
-    array (
-    ),
-    'PluginResolutionActions\\Piwik\\Tracker\\Action' => 
-    array (
-    ),
-    'PluginDevicePluginsActions\\Piwik\\Tracker\\Action' => 
-    array (
-    ),
-    'PluginHeartbeatActions\\Piwik\\Tracker\\Action' => 
-    array (
-    ),
-    'PluginCoreHomeColumns\\Piwik\\Plugin\\Dimension\\ActionDimension' => 
-    array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/ServerTime.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\ServerTime',
-    ),
-    'PluginActionsColumns\\Piwik\\Plugin\\Dimension\\ActionDimension' => 
-    array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ActionType.php' => 'Piwik\\Plugins\\Actions\\Columns\\ActionType',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ActionUrl.php' => 'Piwik\\Plugins\\Actions\\Columns\\ActionUrl',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ClickedUrl.php' => 'Piwik\\Plugins\\Actions\\Columns\\ClickedUrl',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/DownloadUrl.php' => 'Piwik\\Plugins\\Actions\\Columns\\DownloadUrl',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/PageTitle.php' => 'Piwik\\Plugins\\Actions\\Columns\\PageTitle',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/PageUrl.php' => 'Piwik\\Plugins\\Actions\\Columns\\PageUrl',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/SearchKeyword.php' => 'Piwik\\Plugins\\Actions\\Columns\\SearchKeyword',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/TimeSpentRefAction.php' => 'Piwik\\Plugins\\Actions\\Columns\\TimeSpentRefAction',
-    ),
-    'PluginReferrersColumns\\Piwik\\Plugin\\Dimension\\ActionDimension' => 
-    array (
-    ),
-    'PluginUserLanguageColumns\\Piwik\\Plugin\\Dimension\\ActionDimension' => 
-    array (
-    ),
-    'PluginDevicesDetectionColumns\\Piwik\\Plugin\\Dimension\\ActionDimension' => 
-    array (
-    ),
-    'PluginEventsColumns\\Piwik\\Plugin\\Dimension\\ActionDimension' => 
-    array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Columns/EventAction.php' => 'Piwik\\Plugins\\Events\\Columns\\EventAction',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Columns/EventCategory.php' => 'Piwik\\Plugins\\Events\\Columns\\EventCategory',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Columns/EventName.php' => 'Piwik\\Plugins\\Events\\Columns\\EventName',
-    ),
-    'PluginUserCountryColumns\\Piwik\\Plugin\\Dimension\\ActionDimension' => 
-    array (
-    ),
-    'PluginVisitTimeColumns\\Piwik\\Plugin\\Dimension\\ActionDimension' => 
-    array (
-    ),
-    'PluginVisitorInterestColumns\\Piwik\\Plugin\\Dimension\\ActionDimension' => 
-    array (
-    ),
-    'PluginCustomVariablesColumns\\Piwik\\Plugin\\Dimension\\ActionDimension' => 
-    array (
-    ),
-    'PluginResolutionColumns\\Piwik\\Plugin\\Dimension\\ActionDimension' => 
-    array (
-    ),
-    'PluginDevicePluginsColumns\\Piwik\\Plugin\\Dimension\\ActionDimension' => 
-    array (
-    ),
-    'PluginHeartbeatColumns\\Piwik\\Plugin\\Dimension\\ActionDimension' => 
-    array (
     ),
   ),
 );

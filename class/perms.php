@@ -74,15 +74,15 @@ class WgxpiwikPerms extends XoopsObject
         $form->setExtra('enctype="multipart/form-data"');
 
         // Form group name
-        $groups_Handler =& xoops_getModuleHandler('group', 'system');
+        $groups_Handler = xoops_getModuleHandler('group', 'system');
         $group_obj      = $groups_Handler->get($this->getVar('perm_groupid'));
         $form->addElement( new XoopsFormLabel(_AM_WGXPIWIK_PERM_GROUPID,  $group_obj->getVar('name')));
 
         // Form Select Piwik User        
-        $piwikHandler =& $this->wgxpiwik->getHandler('piwik');
+        $piwikHandler = $this->wgxpiwik->getHandler('piwik');
         $piwik_users  =  $piwikHandler->wgxpiwikGetPiwikUsers();
         $perm_piwikuserSelect = new XoopsFormSelect(_AM_WGXPIWIK_PERM_PIWIK_LOGIN . _AM_WGXPIWIK_PERM_PIWIK_LOGIN_DESC, 'perm_piwik_login', $this->getVar('perm_piwik_login'));
-        $perm_piwikuserSelect->addOption('', 'none');
+        $perm_piwikuserSelect->addOption('', _AM_WGXPIWIK_PERM_NONE);
         foreach ($piwik_users as $puser)
         {
             $perm_piwikuserSelect->addOption($puser['alias']);
@@ -160,7 +160,7 @@ class WgxpiwikPermsHandler extends XoopsPersistableObjectHandler
      *
      * @return object
      */
-    public function &create($isNew = true)
+    public function create($isNew = true)
     {
         $temp = parent::create($isNew);
         return $temp;
@@ -172,9 +172,10 @@ class WgxpiwikPermsHandler extends XoopsPersistableObjectHandler
      * @param int $i field id
      * @return mixed reference to the {@link TDMCreateFields} object
      */
-    public function &get($i = null, $fields = null)
+    public function get($i = null, $fields = null)
     {
-        return parent::get($i, $fields);
+        $temp = parent::get($i, $fields);
+        return $temp;
     }
 
     /**
@@ -183,9 +184,10 @@ class WgxpiwikPermsHandler extends XoopsPersistableObjectHandler
      * @param null
      * @return integer reference to the {@link TDMCreateFields} object
      */
-    public function &getInsertId()
+    public function getInsertId()
     {
-        return $this->db->getInsertId();
+        $temp =  $this->db->getInsertId();
+        return $temp;
     }
 
     /**
@@ -196,7 +198,8 @@ class WgxpiwikPermsHandler extends XoopsPersistableObjectHandler
      */
     public function &getIds(CriteriaElement $criteria = null)
     {
-        return parent::getIds($criteria);
+        $temp =&  parent::getIds($criteria);
+        return $temp;
     }
 
     /**

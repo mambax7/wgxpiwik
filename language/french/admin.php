@@ -102,6 +102,7 @@ define('_AM_WGXPIWIK_PERM_PIWIK_LOGIN', "Utilisateur Piwik");
 define('_AM_WGXPIWIK_PERM_PIWIK_LOGIN_DESC', "<br/>Attention : pour des raions de sécurité il n'est pas autorisé de sélectionner un accès super-utilisateur pour la connexion via iframe");
 define('_AM_WGXPIWIK_PERM_WEIGHT', "Poids");
 define('_AM_WGXPIWIK_PERM_EDIT', "Editer les permission");
+define('_AM_WGXPIWIK_PERM_NONE', "Sans");
 
 // ---------------- Admin Others ----------------
 define('_AM_WGXPIWIK_MAINTAINEDBY', " est maintenu par <a href='http://wedega.com'>http://wedega.com</a> et <a href='http://xoops.wedega.com'>http://xoops.wedega.com</a>");

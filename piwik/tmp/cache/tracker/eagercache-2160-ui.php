@@ -1,5 +1,5 @@
 <?php return array (
-  'lifetime' => 1459558764,
+  'lifetime' => 1470766162,
   'data' => 
   array (
     'PluginCorePluginsAdminMetadata' => 
@@ -1157,20 +1157,20 @@
     ),
     'PluginCoreHomeColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/IdSite.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\IdSite',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/UserId.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\UserId',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitFirstActionTime.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitFirstActionTime',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitGoalBuyer.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitGoalBuyer',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitGoalConverted.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitGoalConverted',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitId.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitId',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitIp.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitIp',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitLastActionTime.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitLastActionTime',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitTotalTime.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitTotalTime',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitorDaysSinceFirst.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitorDaysSinceFirst',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitorDaysSinceOrder.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitorDaysSinceOrder',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitorId.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitorId',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitorReturning.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitorReturning',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitsCount.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitsCount',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/IdSite.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\IdSite',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/UserId.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\UserId',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitFirstActionTime.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitFirstActionTime',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitGoalBuyer.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitGoalBuyer',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitGoalConverted.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitGoalConverted',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitId.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitId',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitIp.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitIp',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitLastActionTime.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitLastActionTime',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitTotalTime.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitTotalTime',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitorDaysSinceFirst.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitorDaysSinceFirst',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitorDaysSinceOrder.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitorDaysSinceOrder',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitorId.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitorId',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitorReturning.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitorReturning',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitsCount.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\VisitsCount',
     ),
     'PluginWebsiteMeasurableColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
@@ -1201,12 +1201,12 @@
     ),
     'PluginActionsColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/EntryPageTitle.php' => 'Piwik\\Plugins\\Actions\\Columns\\EntryPageTitle',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/EntryPageUrl.php' => 'Piwik\\Plugins\\Actions\\Columns\\EntryPageUrl',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ExitPageTitle.php' => 'Piwik\\Plugins\\Actions\\Columns\\ExitPageTitle',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ExitPageUrl.php' => 'Piwik\\Plugins\\Actions\\Columns\\ExitPageUrl',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/VisitTotalActions.php' => 'Piwik\\Plugins\\Actions\\Columns\\VisitTotalActions',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/VisitTotalSearches.php' => 'Piwik\\Plugins\\Actions\\Columns\\VisitTotalSearches',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/EntryPageTitle.php' => 'Piwik\\Plugins\\Actions\\Columns\\EntryPageTitle',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/EntryPageUrl.php' => 'Piwik\\Plugins\\Actions\\Columns\\EntryPageUrl',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ExitPageTitle.php' => 'Piwik\\Plugins\\Actions\\Columns\\ExitPageTitle',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ExitPageUrl.php' => 'Piwik\\Plugins\\Actions\\Columns\\ExitPageUrl',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/VisitTotalActions.php' => 'Piwik\\Plugins\\Actions\\Columns\\VisitTotalActions',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/VisitTotalSearches.php' => 'Piwik\\Plugins\\Actions\\Columns\\VisitTotalSearches',
     ),
     'PluginDashboardColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
@@ -1216,27 +1216,27 @@
     ),
     'PluginReferrersColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/Campaign.php' => 'Piwik\\Plugins\\Referrers\\Columns\\Campaign',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/Keyword.php' => 'Piwik\\Plugins\\Referrers\\Columns\\Keyword',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/ReferrerName.php' => 'Piwik\\Plugins\\Referrers\\Columns\\ReferrerName',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/ReferrerType.php' => 'Piwik\\Plugins\\Referrers\\Columns\\ReferrerType',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/ReferrerUrl.php' => 'Piwik\\Plugins\\Referrers\\Columns\\ReferrerUrl',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/Website.php' => 'Piwik\\Plugins\\Referrers\\Columns\\Website',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/Campaign.php' => 'Piwik\\Plugins\\Referrers\\Columns\\Campaign',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/Keyword.php' => 'Piwik\\Plugins\\Referrers\\Columns\\Keyword',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/ReferrerName.php' => 'Piwik\\Plugins\\Referrers\\Columns\\ReferrerName',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/ReferrerType.php' => 'Piwik\\Plugins\\Referrers\\Columns\\ReferrerType',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/ReferrerUrl.php' => 'Piwik\\Plugins\\Referrers\\Columns\\ReferrerUrl',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/Website.php' => 'Piwik\\Plugins\\Referrers\\Columns\\Website',
     ),
     'PluginUserLanguageColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserLanguage/Columns/Language.php' => 'Piwik\\Plugins\\UserLanguage\\Columns\\Language',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserLanguage/Columns/Language.php' => 'Piwik\\Plugins\\UserLanguage\\Columns\\Language',
     ),
     'PluginDevicesDetectionColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/BrowserEngine.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\BrowserEngine',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/BrowserName.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\BrowserName',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/BrowserVersion.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\BrowserVersion',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/DeviceBrand.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\DeviceBrand',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/DeviceModel.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\DeviceModel',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/DeviceType.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\DeviceType',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/Os.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\Os',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/OsVersion.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\OsVersion',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/BrowserEngine.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\BrowserEngine',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/BrowserName.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\BrowserName',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/BrowserVersion.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\BrowserVersion',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/DeviceBrand.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\DeviceBrand',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/DeviceModel.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\DeviceModel',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/DeviceType.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\DeviceType',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/Os.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\Os',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/OsVersion.php' => 'Piwik\\Plugins\\DevicesDetection\\Columns\\OsVersion',
     ),
     'PluginGoalsColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
@@ -1249,16 +1249,16 @@
     ),
     'PluginEventsColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Columns/TotalEvents.php' => 'Piwik\\Plugins\\Events\\Columns\\TotalEvents',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Columns/TotalEvents.php' => 'Piwik\\Plugins\\Events\\Columns\\TotalEvents',
     ),
     'PluginUserCountryColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/City.php' => 'Piwik\\Plugins\\UserCountry\\Columns\\City',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Country.php' => 'Piwik\\Plugins\\UserCountry\\Columns\\Country',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Latitude.php' => 'Piwik\\Plugins\\UserCountry\\Columns\\Latitude',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Longitude.php' => 'Piwik\\Plugins\\UserCountry\\Columns\\Longitude',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Provider.php' => 'Piwik\\Plugins\\UserCountry\\Columns\\Provider',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Region.php' => 'Piwik\\Plugins\\UserCountry\\Columns\\Region',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/City.php' => 'Piwik\\Plugins\\UserCountry\\Columns\\City',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Country.php' => 'Piwik\\Plugins\\UserCountry\\Columns\\Country',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Latitude.php' => 'Piwik\\Plugins\\UserCountry\\Columns\\Latitude',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Longitude.php' => 'Piwik\\Plugins\\UserCountry\\Columns\\Longitude',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Provider.php' => 'Piwik\\Plugins\\UserCountry\\Columns\\Provider',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Region.php' => 'Piwik\\Plugins\\UserCountry\\Columns\\Region',
     ),
     'PluginVisitsSummaryColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
@@ -1268,12 +1268,12 @@
     ),
     'PluginVisitTimeColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitTime/Columns/LocalTime.php' => 'Piwik\\Plugins\\VisitTime\\Columns\\LocalTime',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitTime/Columns/ServerTime.php' => 'Piwik\\Plugins\\VisitTime\\Columns\\ServerTime',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitTime/Columns/LocalTime.php' => 'Piwik\\Plugins\\VisitTime\\Columns\\LocalTime',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitTime/Columns/ServerTime.php' => 'Piwik\\Plugins\\VisitTime\\Columns\\ServerTime',
     ),
     'PluginVisitorInterestColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitorInterest/Columns/VisitsByDaysSinceLastVisit.php' => 'Piwik\\Plugins\\VisitorInterest\\Columns\\VisitsByDaysSinceLastVisit',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitorInterest/Columns/VisitsByDaysSinceLastVisit.php' => 'Piwik\\Plugins\\VisitorInterest\\Columns\\VisitsByDaysSinceLastVisit',
     ),
     'PluginExampleAPIColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
@@ -1316,9 +1316,9 @@
     ),
     'PluginCustomVariablesColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CustomVariables/Columns/Base.php' => 'Piwik\\Plugins\\CustomVariables\\Columns\\Base',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CustomVariables/Columns/CustomVariableName.php' => 'Piwik\\Plugins\\CustomVariables\\Columns\\CustomVariableName',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CustomVariables/Columns/CustomVariableValue.php' => 'Piwik\\Plugins\\CustomVariables\\Columns\\CustomVariableValue',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CustomVariables/Columns/Base.php' => 'Piwik\\Plugins\\CustomVariables\\Columns\\Base',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CustomVariables/Columns/CustomVariableName.php' => 'Piwik\\Plugins\\CustomVariables\\Columns\\CustomVariableName',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CustomVariables/Columns/CustomVariableValue.php' => 'Piwik\\Plugins\\CustomVariables\\Columns\\CustomVariableValue',
     ),
     'PluginPrivacyManagerColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
@@ -1352,20 +1352,20 @@
     ),
     'PluginResolutionColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Resolution/Columns/Resolution.php' => 'Piwik\\Plugins\\Resolution\\Columns\\Resolution',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Resolution/Columns/Resolution.php' => 'Piwik\\Plugins\\Resolution\\Columns\\Resolution',
     ),
     'PluginDevicePluginsColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginCookie.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginCookie',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginDirector.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginDirector',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginFlash.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginFlash',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginGears.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginGears',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginJava.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginJava',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginPdf.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginPdf',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginQuickTime.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginQuickTime',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginRealPlayer.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginRealPlayer',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginSilverlight.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginSilverlight',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginWindowsMedia.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginWindowsMedia',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginCookie.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginCookie',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginDirector.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginDirector',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginFlash.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginFlash',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginGears.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginGears',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginJava.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginJava',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginPdf.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginPdf',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginQuickTime.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginQuickTime',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginRealPlayer.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginRealPlayer',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginSilverlight.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginSilverlight',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginWindowsMedia.php' => 'Piwik\\Plugins\\DevicePlugins\\Columns\\PluginWindowsMedia',
     ),
     'PluginHeartbeatColumns\\Piwik\\Plugin\\Dimension\\VisitDimension' => 
     array (
@@ -1384,7 +1384,7 @@
     ),
     'PluginCoreHomeColumns\\Piwik\\Plugin\\Dimension\\ActionDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/ServerTime.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\ServerTime',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/ServerTime.php' => 'Piwik\\Plugins\\CoreHome\\Columns\\ServerTime',
     ),
     'PluginWebsiteMeasurableColumns\\Piwik\\Plugin\\Dimension\\ActionDimension' => 
     array (
@@ -1415,14 +1415,14 @@
     ),
     'PluginActionsColumns\\Piwik\\Plugin\\Dimension\\ActionDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ActionType.php' => 'Piwik\\Plugins\\Actions\\Columns\\ActionType',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ActionUrl.php' => 'Piwik\\Plugins\\Actions\\Columns\\ActionUrl',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ClickedUrl.php' => 'Piwik\\Plugins\\Actions\\Columns\\ClickedUrl',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/DownloadUrl.php' => 'Piwik\\Plugins\\Actions\\Columns\\DownloadUrl',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/PageTitle.php' => 'Piwik\\Plugins\\Actions\\Columns\\PageTitle',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/PageUrl.php' => 'Piwik\\Plugins\\Actions\\Columns\\PageUrl',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/SearchKeyword.php' => 'Piwik\\Plugins\\Actions\\Columns\\SearchKeyword',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/TimeSpentRefAction.php' => 'Piwik\\Plugins\\Actions\\Columns\\TimeSpentRefAction',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ActionType.php' => 'Piwik\\Plugins\\Actions\\Columns\\ActionType',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ActionUrl.php' => 'Piwik\\Plugins\\Actions\\Columns\\ActionUrl',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ClickedUrl.php' => 'Piwik\\Plugins\\Actions\\Columns\\ClickedUrl',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/DownloadUrl.php' => 'Piwik\\Plugins\\Actions\\Columns\\DownloadUrl',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/PageTitle.php' => 'Piwik\\Plugins\\Actions\\Columns\\PageTitle',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/PageUrl.php' => 'Piwik\\Plugins\\Actions\\Columns\\PageUrl',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/SearchKeyword.php' => 'Piwik\\Plugins\\Actions\\Columns\\SearchKeyword',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/TimeSpentRefAction.php' => 'Piwik\\Plugins\\Actions\\Columns\\TimeSpentRefAction',
     ),
     'PluginDashboardColumns\\Piwik\\Plugin\\Dimension\\ActionDimension' => 
     array (
@@ -1450,9 +1450,9 @@
     ),
     'PluginEventsColumns\\Piwik\\Plugin\\Dimension\\ActionDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Columns/EventAction.php' => 'Piwik\\Plugins\\Events\\Columns\\EventAction',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Columns/EventCategory.php' => 'Piwik\\Plugins\\Events\\Columns\\EventCategory',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Columns/EventName.php' => 'Piwik\\Plugins\\Events\\Columns\\EventName',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Columns/EventAction.php' => 'Piwik\\Plugins\\Events\\Columns\\EventAction',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Columns/EventCategory.php' => 'Piwik\\Plugins\\Events\\Columns\\EventCategory',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Columns/EventName.php' => 'Piwik\\Plugins\\Events\\Columns\\EventName',
     ),
     'PluginUserCountryColumns\\Piwik\\Plugin\\Dimension\\ActionDimension' => 
     array (
@@ -1537,10 +1537,10 @@
     ),
     'PluginContentsColumns\\Piwik\\Plugin\\Dimension\\ActionDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/ContentInteraction.php' => 'Piwik\\Plugins\\Contents\\Columns\\ContentInteraction',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/ContentName.php' => 'Piwik\\Plugins\\Contents\\Columns\\ContentName',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/ContentPiece.php' => 'Piwik\\Plugins\\Contents\\Columns\\ContentPiece',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/ContentTarget.php' => 'Piwik\\Plugins\\Contents\\Columns\\ContentTarget',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/ContentInteraction.php' => 'Piwik\\Plugins\\Contents\\Columns\\ContentInteraction',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/ContentName.php' => 'Piwik\\Plugins\\Contents\\Columns\\ContentName',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/ContentPiece.php' => 'Piwik\\Plugins\\Contents\\Columns\\ContentPiece',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/ContentTarget.php' => 'Piwik\\Plugins\\Contents\\Columns\\ContentTarget',
     ),
     'PluginBulkTrackingColumns\\Piwik\\Plugin\\Dimension\\ActionDimension' => 
     array (
@@ -1616,15 +1616,15 @@
     ),
     'PluginGoalsColumns\\Piwik\\Plugin\\Dimension\\ConversionDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/IdGoal.php' => 'Piwik\\Plugins\\Goals\\Columns\\IdGoal',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/IdGoal.php' => 'Piwik\\Plugins\\Goals\\Columns\\IdGoal',
     ),
     'PluginEcommerceColumns\\Piwik\\Plugin\\Dimension\\ConversionDimension' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/Revenue.php' => 'Piwik\\Plugins\\Ecommerce\\Columns\\Revenue',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/RevenueDiscount.php' => 'Piwik\\Plugins\\Ecommerce\\Columns\\RevenueDiscount',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/RevenueShipping.php' => 'Piwik\\Plugins\\Ecommerce\\Columns\\RevenueShipping',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/RevenueSubtotal.php' => 'Piwik\\Plugins\\Ecommerce\\Columns\\RevenueSubtotal',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/RevenueTax.php' => 'Piwik\\Plugins\\Ecommerce\\Columns\\RevenueTax',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/Revenue.php' => 'Piwik\\Plugins\\Ecommerce\\Columns\\Revenue',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/RevenueDiscount.php' => 'Piwik\\Plugins\\Ecommerce\\Columns\\RevenueDiscount',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/RevenueShipping.php' => 'Piwik\\Plugins\\Ecommerce\\Columns\\RevenueShipping',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/RevenueSubtotal.php' => 'Piwik\\Plugins\\Ecommerce\\Columns\\RevenueSubtotal',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/RevenueTax.php' => 'Piwik\\Plugins\\Ecommerce\\Columns\\RevenueTax',
     ),
     'PluginSEOColumns\\Piwik\\Plugin\\Dimension\\ConversionDimension' => 
     array (
@@ -1736,381 +1736,147 @@
     ),
     'AllDimensionModifyTime' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ActionType.php' => 1454386451,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ActionUrl.php' => 1448418942,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ClickedUrl.php' => 1444254390,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/DestinationPage.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/DownloadUrl.php' => 1444254390,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/EntryPageTitle.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/EntryPageUrl.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ExitPageTitle.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ExitPageUrl.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/Keyword.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/KeywordwithNoSearchResult.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/PageTitle.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/PageUrl.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/SearchCategory.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/SearchDestinationPage.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/SearchKeyword.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/SearchNoResultKeyword.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/TimeSpentRefAction.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/VisitTotalActions.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/VisitTotalSearches.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/ContentInteraction.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/ContentName.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/ContentPiece.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/ContentTarget.php' => 1450832811,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/IdSite.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/ServerTime.php' => 1417830340,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/UserId.php' => 1450832811,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitFirstActionTime.php' => 1417830340,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitGoalBuyer.php' => 1439484073,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitGoalConverted.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitId.php' => 1441694494,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitIp.php' => 1441694494,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitLastActionTime.php' => 1453870799,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitTotalTime.php' => 1450832811,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitorDaysSinceFirst.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitorDaysSinceOrder.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitorId.php' => 1441694494,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitorReturning.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitsCount.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CustomVariables/Columns/Base.php' => 1448418942,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CustomVariables/Columns/CustomVariableName.php' => 1448418942,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CustomVariables/Columns/CustomVariableValue.php' => 1448418942,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/Plugin.php' => 1419201345,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginCookie.php' => 1419201345,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginDirector.php' => 1419201345,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginFlash.php' => 1419201345,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginGears.php' => 1419201345,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginJava.php' => 1419201345,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginPdf.php' => 1419201345,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginQuickTime.php' => 1419201345,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginRealPlayer.php' => 1419201345,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginSilverlight.php' => 1419201345,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginWindowsMedia.php' => 1419201345,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/Base.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/BrowserEngine.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/BrowserName.php' => 1417648413,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/BrowserVersion.php' => 1417170257,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/DeviceBrand.php' => 1452720533,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/DeviceModel.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/DeviceType.php' => 1423807624,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/Os.php' => 1423617512,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/OsVersion.php' => 1423807624,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/BaseConversion.php' => 1423617512,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/ProductCategory.php' => 1423617512,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/ProductName.php' => 1423617512,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/ProductSku.php' => 1423617512,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/Revenue.php' => 1423617512,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/RevenueDiscount.php' => 1423617512,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/RevenueShipping.php' => 1423617512,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/RevenueSubtotal.php' => 1423617512,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/RevenueTax.php' => 1423617512,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Columns/EventAction.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Columns/EventCategory.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Columns/EventName.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Columns/TotalEvents.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/ExampleTracker/Columns/ExampleActionDimension.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/ExampleTracker/Columns/ExampleConversionDimension.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/ExampleTracker/Columns/ExampleDimension.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/ExampleTracker/Columns/ExampleVisitDimension.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/DaysToConversion.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/IdGoal.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/VisitsUntilConversion.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/MultiSites/Columns/Website.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Provider/Columns/Provider.php' => 1426122354,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/Base.php' => 1450667940,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/Campaign.php' => 1450667940,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/Keyword.php' => 1450667940,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/Referrer.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/ReferrerName.php' => 1450667940,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/ReferrerType.php' => 1450667940,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/ReferrerUrl.php' => 1450667940,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/SearchEngine.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/SocialNetwork.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/Website.php' => 1450667940,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/WebsitePage.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Resolution/Columns/Configuration.php' => 1418698790,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Resolution/Columns/Resolution.php' => 1418698790,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Base.php' => 1429690747,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/City.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Continent.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Country.php' => 1426648265,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Latitude.php' => 1450832811,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Longitude.php' => 1450832811,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Provider.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Region.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserLanguage/Columns/Language.php' => 1434439915,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitTime/Columns/DayOfTheWeek.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitTime/Columns/LocalTime.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitTime/Columns/ServerTime.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitorInterest/Columns/PagesPerVisit.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitorInterest/Columns/VisitDuration.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitorInterest/Columns/VisitsByDaysSinceLastVisit.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitorInterest/Columns/VisitsbyVisitNumber.php' => 1415090127,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/Metrics/AveragePageGenerationTime.php' => 1417170257,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/Metrics/AverageTimeOnPage.php' => 1453870799,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/Metrics/BounceRate.php' => 1417170257,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/Metrics/ExitRate.php' => 1417170257,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/Metrics/InteractionRate.php' => 1444613676,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/Metrics/ActionsPerVisit.php' => 1450832811,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/Metrics/AverageTimeOnSite.php' => 1417170257,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/Metrics/BounceRate.php' => 1417170257,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/Metrics/CallableProcessedMetric.php' => 1425873058,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/Metrics/ConversionRate.php' => 1417170257,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/Metrics/EvolutionMetric.php' => 1417170257,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/Metrics/VisitsPercent.php' => 1417170257,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Columns/Metrics/AverageEventValue.php' => 1417170257,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/Metrics/AverageOrderRevenue.php' => 1417170257,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/Metrics/AveragePrice.php' => 1417170257,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/Metrics/AverageQuantity.php' => 1417170257,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/Metrics/GoalSpecificProcessedMetric.php' => 1425873058,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/Metrics/ProductConversionRate.php' => 1417170257,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/Metrics/RevenuePerVisit.php' => 1417170257,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/Metrics/GoalSpecific/AverageOrderRevenue.php' => 1417170257,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/Metrics/GoalSpecific/ConversionRate.php' => 1417170257,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/Metrics/GoalSpecific/Conversions.php' => 1417170257,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/Metrics/GoalSpecific/ItemsCount.php' => 1417170257,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/Metrics/GoalSpecific/Revenue.php' => 1417170257,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/Metrics/GoalSpecific/RevenuePerVisit.php' => 1417170257,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/MultiSites/Columns/Metrics/EcommerceOnlyEvolutionMetric.php' => 1429690747,
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitFrequency/Columns/Metrics/ReturningMetric.php' => 1417170257,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ActionType.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ActionUrl.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ClickedUrl.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/DestinationPage.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/DownloadUrl.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/EntryPageTitle.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/EntryPageUrl.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ExitPageTitle.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/ExitPageUrl.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/Keyword.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/KeywordwithNoSearchResult.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/PageTitle.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/PageUrl.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/SearchCategory.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/SearchDestinationPage.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/SearchKeyword.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/SearchNoResultKeyword.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/TimeSpentRefAction.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/VisitTotalActions.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/VisitTotalSearches.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/ContentInteraction.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/ContentName.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/ContentPiece.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/ContentTarget.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/IdSite.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/ServerTime.php' => 1463852462,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/UserId.php' => 1463852462,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitFirstActionTime.php' => 1463852462,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitGoalBuyer.php' => 1463852462,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitGoalConverted.php' => 1463852462,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitId.php' => 1463852462,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitIp.php' => 1463852462,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitLastActionTime.php' => 1463852462,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitTotalTime.php' => 1463852462,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitorDaysSinceFirst.php' => 1463852462,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitorDaysSinceOrder.php' => 1463852462,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitorId.php' => 1463852462,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitorReturning.php' => 1463852462,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/VisitsCount.php' => 1463852462,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CustomVariables/Columns/Base.php' => 1463852463,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CustomVariables/Columns/CustomVariableName.php' => 1463852463,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CustomVariables/Columns/CustomVariableValue.php' => 1463852463,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/Plugin.php' => 1463852463,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginCookie.php' => 1463852463,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginDirector.php' => 1463852463,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginFlash.php' => 1463852463,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginGears.php' => 1463852463,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginJava.php' => 1463852463,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginPdf.php' => 1463852463,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginQuickTime.php' => 1463852463,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginRealPlayer.php' => 1463852463,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginSilverlight.php' => 1463852463,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Columns/PluginWindowsMedia.php' => 1463852463,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/Base.php' => 1463852464,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/BrowserEngine.php' => 1463852464,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/BrowserName.php' => 1463852464,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/BrowserVersion.php' => 1463852464,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/DeviceBrand.php' => 1463852464,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/DeviceModel.php' => 1463852464,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/DeviceType.php' => 1463852464,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/Os.php' => 1463852464,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Columns/OsVersion.php' => 1463852464,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/BaseConversion.php' => 1463852465,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/ProductCategory.php' => 1463852465,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/ProductName.php' => 1463852465,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/ProductSku.php' => 1463852465,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/Revenue.php' => 1463852465,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/RevenueDiscount.php' => 1463852465,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/RevenueShipping.php' => 1463852465,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/RevenueSubtotal.php' => 1463852465,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Columns/RevenueTax.php' => 1463852465,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Columns/EventAction.php' => 1463852465,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Columns/EventCategory.php' => 1463852465,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Columns/EventName.php' => 1463852465,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Columns/TotalEvents.php' => 1463852465,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/ExampleTracker/Columns/ExampleActionDimension.php' => 1463852465,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/ExampleTracker/Columns/ExampleConversionDimension.php' => 1463852465,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/ExampleTracker/Columns/ExampleDimension.php' => 1463852465,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/ExampleTracker/Columns/ExampleVisitDimension.php' => 1463852465,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/DaysToConversion.php' => 1463852466,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/IdGoal.php' => 1463852466,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/VisitsUntilConversion.php' => 1463852466,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/MultiSites/Columns/Website.php' => 1463852467,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Provider/Columns/Provider.php' => 1463852468,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/Base.php' => 1463852468,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/Campaign.php' => 1463852468,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/Keyword.php' => 1463852468,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/Referrer.php' => 1463852468,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/ReferrerName.php' => 1463852468,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/ReferrerType.php' => 1463852468,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/ReferrerUrl.php' => 1463852468,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/SearchEngine.php' => 1463852468,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/SocialNetwork.php' => 1463852468,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/Website.php' => 1463852469,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Columns/WebsitePage.php' => 1463852469,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Resolution/Columns/Configuration.php' => 1463852470,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Resolution/Columns/Resolution.php' => 1463852470,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Base.php' => 1463852471,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/City.php' => 1463852471,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Continent.php' => 1463852471,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Country.php' => 1463852471,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Latitude.php' => 1463852471,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Longitude.php' => 1463852471,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Provider.php' => 1463852471,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Columns/Region.php' => 1463852471,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserLanguage/Columns/Language.php' => 1463852472,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitTime/Columns/DayOfTheWeek.php' => 1463852473,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitTime/Columns/LocalTime.php' => 1463852473,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitTime/Columns/ServerTime.php' => 1463852473,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitorInterest/Columns/PagesPerVisit.php' => 1463852473,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitorInterest/Columns/VisitDuration.php' => 1463852473,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitorInterest/Columns/VisitsByDaysSinceLastVisit.php' => 1463852473,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitorInterest/Columns/VisitsbyVisitNumber.php' => 1463852473,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/Metrics/AveragePageGenerationTime.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/Metrics/AverageTimeOnPage.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/Metrics/BounceRate.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Columns/Metrics/ExitRate.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Columns/Metrics/InteractionRate.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/Metrics/ActionsPerVisit.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/Metrics/AverageTimeOnSite.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/Metrics/BounceRate.php' => 1463852461,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/Metrics/CallableProcessedMetric.php' => 1463852462,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/Metrics/ConversionRate.php' => 1463852462,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/Metrics/EvolutionMetric.php' => 1463852462,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreHome/Columns/Metrics/VisitsPercent.php' => 1463852462,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Columns/Metrics/AverageEventValue.php' => 1463852465,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/Metrics/AverageOrderRevenue.php' => 1463852466,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/Metrics/AveragePrice.php' => 1463852466,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/Metrics/AverageQuantity.php' => 1463852466,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/Metrics/GoalSpecificProcessedMetric.php' => 1463852466,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/Metrics/ProductConversionRate.php' => 1463852466,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/Metrics/RevenuePerVisit.php' => 1463852466,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/Metrics/GoalSpecific/AverageOrderRevenue.php' => 1463852466,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/Metrics/GoalSpecific/ConversionRate.php' => 1463852466,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/Metrics/GoalSpecific/Conversions.php' => 1463852466,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/Metrics/GoalSpecific/ItemsCount.php' => 1463852466,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/Metrics/GoalSpecific/Revenue.php' => 1463852466,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Columns/Metrics/GoalSpecific/RevenuePerVisit.php' => 1463852466,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/MultiSites/Columns/Metrics/EcommerceOnlyEvolutionMetric.php' => 1463852467,
+      'C:\\Homepages\\wamp\\www\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitFrequency/Columns/Metrics/ReturningMetric.php' => 1463852473,
     ),
-    'PluginCorePluginsAdminRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginCoreAdminHomeRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginCoreHomeRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginWebsiteMeasurableRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginDiagnosticsRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginCoreVisualizationsRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginProxyRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginAPIRendererPiwik\\API\\ApiRenderer' => 
-    array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/API/Renderer/Console.php' => 'Piwik\\Plugins\\API\\Renderer\\Console',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/API/Renderer/Csv.php' => 'Piwik\\Plugins\\API\\Renderer\\Csv',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/API/Renderer/Html.php' => 'Piwik\\Plugins\\API\\Renderer\\Html',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/API/Renderer/Json.php' => 'Piwik\\Plugins\\API\\Renderer\\Json',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/API/Renderer/Json2.php' => 'Piwik\\Plugins\\API\\Renderer\\Json2',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/API/Renderer/Original.php' => 'Piwik\\Plugins\\API\\Renderer\\Original',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/API/Renderer/Php.php' => 'Piwik\\Plugins\\API\\Renderer\\Php',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/API/Renderer/Rss.php' => 'Piwik\\Plugins\\API\\Renderer\\Rss',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/API/Renderer/Tsv.php' => 'Piwik\\Plugins\\API\\Renderer\\Tsv',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/API/Renderer/Xml.php' => 'Piwik\\Plugins\\API\\Renderer\\Xml',
-    ),
-    'PluginExamplePluginRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginWidgetizeRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginTransitionsRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginLanguagesManagerRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginActionsRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginDashboardRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginMultiSitesRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginReferrersRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginUserLanguageRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginDevicesDetectionRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginGoalsRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginEcommerceRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginSEORendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginEventsRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginUserCountryRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginVisitsSummaryRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginVisitFrequencyRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginVisitTimeRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginVisitorInterestRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginExampleAPIRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginExampleRssWidgetRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginFeedbackRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginMonologRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginLoginRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginUsersManagerRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginSitesManagerRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginInstallationRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginCoreUpdaterRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginCoreConsoleRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginScheduledReportsRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginUserCountryMapRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginLiveRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginCustomVariablesRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginPrivacyManagerRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginImageGraphRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginAnnotationsRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginMobileMessagingRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginOverlayRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginSegmentEditorRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginInsightsRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginMorpheusRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginContentsRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginBulkTrackingRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginResolutionRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginDevicePluginsRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginHeartbeatRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginIntlRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginPiwikProRendererPiwik\\API\\ApiRenderer' => 
-    array (
-    ),
-    'PluginCorePluginsAdminTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\CorePluginsAdmin\\Tasks',
-    'PluginCoreAdminHomeTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\CoreAdminHome\\Tasks',
-    'PluginCoreHomeTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginWebsiteMeasurableTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginDiagnosticsTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginCoreVisualizationsTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginProxyTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginAPITasksPiwik\\Plugin\\Tasks' => false,
-    'PluginExamplePluginTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\ExamplePlugin\\Tasks',
-    'PluginWidgetizeTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginTransitionsTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginLanguagesManagerTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginActionsTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginDashboardTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginMultiSitesTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginReferrersTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\Referrers\\Tasks',
-    'PluginUserLanguageTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginDevicesDetectionTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginGoalsTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginEcommerceTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginSEOTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginEventsTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginUserCountryTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\UserCountry\\Tasks',
-    'PluginVisitsSummaryTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginVisitFrequencyTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginVisitTimeTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginVisitorInterestTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginExampleAPITasksPiwik\\Plugin\\Tasks' => false,
-    'PluginExampleRssWidgetTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginFeedbackTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginMonologTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginLoginTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginUsersManagerTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\UsersManager\\Tasks',
-    'PluginSitesManagerTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginInstallationTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginCoreUpdaterTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\CoreUpdater\\Tasks',
-    'PluginCoreConsoleTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginScheduledReportsTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\ScheduledReports\\Tasks',
-    'PluginUserCountryMapTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginLiveTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginCustomVariablesTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginPrivacyManagerTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\PrivacyManager\\Tasks',
-    'PluginImageGraphTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginAnnotationsTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginMobileMessagingTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginOverlayTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginSegmentEditorTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginInsightsTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginMorpheusTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginContentsTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginBulkTrackingTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginResolutionTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginDevicePluginsTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginHeartbeatTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginIntlTasksPiwik\\Plugin\\Tasks' => false,
-    'PluginPiwikProTasksPiwik\\Plugin\\Tasks' => false,
     'PluginCorePluginsAdminMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\CorePluginsAdmin\\Menu',
     'PluginCoreAdminHomeMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\CoreAdminHome\\Menu',
     'PluginCoreHomeMenuPiwik\\Plugin\\Menu' => 'Piwik\\Plugins\\CoreHome\\Menu',
@@ -2975,7 +2741,7 @@
     ),
     'PluginAPIReports\\Piwik\\Plugin\\Report' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/API/Reports/Get.php' => 'Piwik\\Plugins\\API\\Reports\\Get',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/API/Reports/Get.php' => 'Piwik\\Plugins\\API\\Reports\\Get',
     ),
     'PluginExamplePluginReports\\Piwik\\Plugin\\Report' => 
     array (
@@ -2991,121 +2757,121 @@
     ),
     'PluginActionsReports\\Piwik\\Plugin\\Report' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/Get.php' => 'Piwik\\Plugins\\Actions\\Reports\\Get',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetDownloads.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetDownloads',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetEntryPageTitles.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetEntryPageTitles',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetEntryPageUrls.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetEntryPageUrls',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetExitPageTitles.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetExitPageTitles',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetExitPageUrls.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetExitPageUrls',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetOutlinks.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetOutlinks',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetPageTitles.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetPageTitles',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetPageTitlesFollowingSiteSearch.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetPageTitlesFollowingSiteSearch',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetPageUrls.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetPageUrls',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetPageUrlsFollowingSiteSearch.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetPageUrlsFollowingSiteSearch',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetSiteSearchCategories.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetSiteSearchCategories',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetSiteSearchKeywords.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetSiteSearchKeywords',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetSiteSearchNoResultKeywords.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetSiteSearchNoResultKeywords',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/Get.php' => 'Piwik\\Plugins\\Actions\\Reports\\Get',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetDownloads.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetDownloads',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetEntryPageTitles.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetEntryPageTitles',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetEntryPageUrls.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetEntryPageUrls',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetExitPageTitles.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetExitPageTitles',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetExitPageUrls.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetExitPageUrls',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetOutlinks.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetOutlinks',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetPageTitles.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetPageTitles',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetPageTitlesFollowingSiteSearch.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetPageTitlesFollowingSiteSearch',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetPageUrls.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetPageUrls',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetPageUrlsFollowingSiteSearch.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetPageUrlsFollowingSiteSearch',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetSiteSearchCategories.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetSiteSearchCategories',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetSiteSearchKeywords.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetSiteSearchKeywords',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Actions/Reports/GetSiteSearchNoResultKeywords.php' => 'Piwik\\Plugins\\Actions\\Reports\\GetSiteSearchNoResultKeywords',
     ),
     'PluginDashboardReports\\Piwik\\Plugin\\Report' => 
     array (
     ),
     'PluginMultiSitesReports\\Piwik\\Plugin\\Report' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/MultiSites/Reports/GetAll.php' => 'Piwik\\Plugins\\MultiSites\\Reports\\GetAll',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/MultiSites/Reports/GetOne.php' => 'Piwik\\Plugins\\MultiSites\\Reports\\GetOne',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/MultiSites/Reports/GetAll.php' => 'Piwik\\Plugins\\MultiSites\\Reports\\GetAll',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/MultiSites/Reports/GetOne.php' => 'Piwik\\Plugins\\MultiSites\\Reports\\GetOne',
     ),
     'PluginReferrersReports\\Piwik\\Plugin\\Report' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Reports/GetAll.php' => 'Piwik\\Plugins\\Referrers\\Reports\\GetAll',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Reports/GetCampaigns.php' => 'Piwik\\Plugins\\Referrers\\Reports\\GetCampaigns',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Reports/GetKeywords.php' => 'Piwik\\Plugins\\Referrers\\Reports\\GetKeywords',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Reports/GetKeywordsFromCampaignId.php' => 'Piwik\\Plugins\\Referrers\\Reports\\GetKeywordsFromCampaignId',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Reports/GetKeywordsFromSearchEngineId.php' => 'Piwik\\Plugins\\Referrers\\Reports\\GetKeywordsFromSearchEngineId',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Reports/GetReferrerType.php' => 'Piwik\\Plugins\\Referrers\\Reports\\GetReferrerType',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Reports/GetSearchEngines.php' => 'Piwik\\Plugins\\Referrers\\Reports\\GetSearchEngines',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Reports/GetSearchEnginesFromKeywordId.php' => 'Piwik\\Plugins\\Referrers\\Reports\\GetSearchEnginesFromKeywordId',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Reports/GetSocials.php' => 'Piwik\\Plugins\\Referrers\\Reports\\GetSocials',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Reports/GetUrlsForSocial.php' => 'Piwik\\Plugins\\Referrers\\Reports\\GetUrlsForSocial',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Reports/GetUrlsFromWebsiteId.php' => 'Piwik\\Plugins\\Referrers\\Reports\\GetUrlsFromWebsiteId',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Reports/GetWebsites.php' => 'Piwik\\Plugins\\Referrers\\Reports\\GetWebsites',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Reports/GetAll.php' => 'Piwik\\Plugins\\Referrers\\Reports\\GetAll',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Reports/GetCampaigns.php' => 'Piwik\\Plugins\\Referrers\\Reports\\GetCampaigns',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Reports/GetKeywords.php' => 'Piwik\\Plugins\\Referrers\\Reports\\GetKeywords',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Reports/GetKeywordsFromCampaignId.php' => 'Piwik\\Plugins\\Referrers\\Reports\\GetKeywordsFromCampaignId',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Reports/GetKeywordsFromSearchEngineId.php' => 'Piwik\\Plugins\\Referrers\\Reports\\GetKeywordsFromSearchEngineId',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Reports/GetReferrerType.php' => 'Piwik\\Plugins\\Referrers\\Reports\\GetReferrerType',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Reports/GetSearchEngines.php' => 'Piwik\\Plugins\\Referrers\\Reports\\GetSearchEngines',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Reports/GetSearchEnginesFromKeywordId.php' => 'Piwik\\Plugins\\Referrers\\Reports\\GetSearchEnginesFromKeywordId',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Reports/GetSocials.php' => 'Piwik\\Plugins\\Referrers\\Reports\\GetSocials',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Reports/GetUrlsForSocial.php' => 'Piwik\\Plugins\\Referrers\\Reports\\GetUrlsForSocial',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Reports/GetUrlsFromWebsiteId.php' => 'Piwik\\Plugins\\Referrers\\Reports\\GetUrlsFromWebsiteId',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Referrers/Reports/GetWebsites.php' => 'Piwik\\Plugins\\Referrers\\Reports\\GetWebsites',
     ),
     'PluginUserLanguageReports\\Piwik\\Plugin\\Report' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserLanguage/Reports/GetLanguage.php' => 'Piwik\\Plugins\\UserLanguage\\Reports\\GetLanguage',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserLanguage/Reports/GetLanguageCode.php' => 'Piwik\\Plugins\\UserLanguage\\Reports\\GetLanguageCode',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserLanguage/Reports/GetLanguage.php' => 'Piwik\\Plugins\\UserLanguage\\Reports\\GetLanguage',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserLanguage/Reports/GetLanguageCode.php' => 'Piwik\\Plugins\\UserLanguage\\Reports\\GetLanguageCode',
     ),
     'PluginDevicesDetectionReports\\Piwik\\Plugin\\Report' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Reports/GetBrand.php' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetBrand',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Reports/GetBrowserEngines.php' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetBrowserEngines',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Reports/GetBrowserVersions.php' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetBrowserVersions',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Reports/GetBrowsers.php' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetBrowsers',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Reports/GetModel.php' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetModel',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Reports/GetOsFamilies.php' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetOsFamilies',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Reports/GetOsVersions.php' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetOsVersions',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Reports/GetType.php' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetType',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Reports/GetBrand.php' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetBrand',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Reports/GetBrowserEngines.php' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetBrowserEngines',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Reports/GetBrowserVersions.php' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetBrowserVersions',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Reports/GetBrowsers.php' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetBrowsers',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Reports/GetModel.php' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetModel',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Reports/GetOsFamilies.php' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetOsFamilies',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Reports/GetOsVersions.php' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetOsVersions',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicesDetection/Reports/GetType.php' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetType',
     ),
     'PluginGoalsReports\\Piwik\\Plugin\\Report' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Reports/Get.php' => 'Piwik\\Plugins\\Goals\\Reports\\Get',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Reports/GetDaysToConversion.php' => 'Piwik\\Plugins\\Goals\\Reports\\GetDaysToConversion',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Reports/GetMetrics.php' => 'Piwik\\Plugins\\Goals\\Reports\\GetMetrics',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Reports/GetVisitsUntilConversion.php' => 'Piwik\\Plugins\\Goals\\Reports\\GetVisitsUntilConversion',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Reports/Get.php' => 'Piwik\\Plugins\\Goals\\Reports\\Get',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Reports/GetDaysToConversion.php' => 'Piwik\\Plugins\\Goals\\Reports\\GetDaysToConversion',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Reports/GetMetrics.php' => 'Piwik\\Plugins\\Goals\\Reports\\GetMetrics',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Reports/GetVisitsUntilConversion.php' => 'Piwik\\Plugins\\Goals\\Reports\\GetVisitsUntilConversion',
     ),
     'PluginEcommerceReports\\Piwik\\Plugin\\Report' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Reports/GetDaysToConversionAbandonedCart.php' => 'Piwik\\Plugins\\Ecommerce\\Reports\\GetDaysToConversionAbandonedCart',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Reports/GetDaysToConversionEcommerceOrder.php' => 'Piwik\\Plugins\\Ecommerce\\Reports\\GetDaysToConversionEcommerceOrder',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Reports/GetEcommerceAbandonedCart.php' => 'Piwik\\Plugins\\Ecommerce\\Reports\\GetEcommerceAbandonedCart',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Reports/GetEcommerceOrder.php' => 'Piwik\\Plugins\\Ecommerce\\Reports\\GetEcommerceOrder',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Reports/GetItemsCategory.php' => 'Piwik\\Plugins\\Ecommerce\\Reports\\GetItemsCategory',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Reports/GetItemsName.php' => 'Piwik\\Plugins\\Ecommerce\\Reports\\GetItemsName',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Reports/GetItemsSku.php' => 'Piwik\\Plugins\\Ecommerce\\Reports\\GetItemsSku',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Reports/GetVisitsUntilConversionAbandonedCart.php' => 'Piwik\\Plugins\\Ecommerce\\Reports\\GetVisitsUntilConversionAbandonedCart',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Reports/GetVisitsUntilConversionEcommerceOrder.php' => 'Piwik\\Plugins\\Ecommerce\\Reports\\GetVisitsUntilConversionEcommerceOrder',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Reports/GetDaysToConversionAbandonedCart.php' => 'Piwik\\Plugins\\Ecommerce\\Reports\\GetDaysToConversionAbandonedCart',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Reports/GetDaysToConversionEcommerceOrder.php' => 'Piwik\\Plugins\\Ecommerce\\Reports\\GetDaysToConversionEcommerceOrder',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Reports/GetEcommerceAbandonedCart.php' => 'Piwik\\Plugins\\Ecommerce\\Reports\\GetEcommerceAbandonedCart',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Reports/GetEcommerceOrder.php' => 'Piwik\\Plugins\\Ecommerce\\Reports\\GetEcommerceOrder',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Reports/GetItemsCategory.php' => 'Piwik\\Plugins\\Ecommerce\\Reports\\GetItemsCategory',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Reports/GetItemsName.php' => 'Piwik\\Plugins\\Ecommerce\\Reports\\GetItemsName',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Reports/GetItemsSku.php' => 'Piwik\\Plugins\\Ecommerce\\Reports\\GetItemsSku',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Reports/GetVisitsUntilConversionAbandonedCart.php' => 'Piwik\\Plugins\\Ecommerce\\Reports\\GetVisitsUntilConversionAbandonedCart',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Ecommerce/Reports/GetVisitsUntilConversionEcommerceOrder.php' => 'Piwik\\Plugins\\Ecommerce\\Reports\\GetVisitsUntilConversionEcommerceOrder',
     ),
     'PluginSEOReports\\Piwik\\Plugin\\Report' => 
     array (
     ),
     'PluginEventsReports\\Piwik\\Plugin\\Report' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Reports/GetAction.php' => 'Piwik\\Plugins\\Events\\Reports\\GetAction',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Reports/GetActionFromCategoryId.php' => 'Piwik\\Plugins\\Events\\Reports\\GetActionFromCategoryId',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Reports/GetActionFromNameId.php' => 'Piwik\\Plugins\\Events\\Reports\\GetActionFromNameId',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Reports/GetCategory.php' => 'Piwik\\Plugins\\Events\\Reports\\GetCategory',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Reports/GetCategoryFromActionId.php' => 'Piwik\\Plugins\\Events\\Reports\\GetCategoryFromActionId',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Reports/GetCategoryFromNameId.php' => 'Piwik\\Plugins\\Events\\Reports\\GetCategoryFromNameId',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Reports/GetName.php' => 'Piwik\\Plugins\\Events\\Reports\\GetName',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Reports/GetNameFromActionId.php' => 'Piwik\\Plugins\\Events\\Reports\\GetNameFromActionId',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Reports/GetNameFromCategoryId.php' => 'Piwik\\Plugins\\Events\\Reports\\GetNameFromCategoryId',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Reports/GetAction.php' => 'Piwik\\Plugins\\Events\\Reports\\GetAction',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Reports/GetActionFromCategoryId.php' => 'Piwik\\Plugins\\Events\\Reports\\GetActionFromCategoryId',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Reports/GetActionFromNameId.php' => 'Piwik\\Plugins\\Events\\Reports\\GetActionFromNameId',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Reports/GetCategory.php' => 'Piwik\\Plugins\\Events\\Reports\\GetCategory',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Reports/GetCategoryFromActionId.php' => 'Piwik\\Plugins\\Events\\Reports\\GetCategoryFromActionId',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Reports/GetCategoryFromNameId.php' => 'Piwik\\Plugins\\Events\\Reports\\GetCategoryFromNameId',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Reports/GetName.php' => 'Piwik\\Plugins\\Events\\Reports\\GetName',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Reports/GetNameFromActionId.php' => 'Piwik\\Plugins\\Events\\Reports\\GetNameFromActionId',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Events/Reports/GetNameFromCategoryId.php' => 'Piwik\\Plugins\\Events\\Reports\\GetNameFromCategoryId',
     ),
     'PluginUserCountryReports\\Piwik\\Plugin\\Report' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Reports/GetCity.php' => 'Piwik\\Plugins\\UserCountry\\Reports\\GetCity',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Reports/GetContinent.php' => 'Piwik\\Plugins\\UserCountry\\Reports\\GetContinent',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Reports/GetCountry.php' => 'Piwik\\Plugins\\UserCountry\\Reports\\GetCountry',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Reports/GetRegion.php' => 'Piwik\\Plugins\\UserCountry\\Reports\\GetRegion',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Reports/GetCity.php' => 'Piwik\\Plugins\\UserCountry\\Reports\\GetCity',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Reports/GetContinent.php' => 'Piwik\\Plugins\\UserCountry\\Reports\\GetContinent',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Reports/GetCountry.php' => 'Piwik\\Plugins\\UserCountry\\Reports\\GetCountry',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/UserCountry/Reports/GetRegion.php' => 'Piwik\\Plugins\\UserCountry\\Reports\\GetRegion',
     ),
     'PluginVisitsSummaryReports\\Piwik\\Plugin\\Report' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitsSummary/Reports/Get.php' => 'Piwik\\Plugins\\VisitsSummary\\Reports\\Get',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitsSummary/Reports/Get.php' => 'Piwik\\Plugins\\VisitsSummary\\Reports\\Get',
     ),
     'PluginVisitFrequencyReports\\Piwik\\Plugin\\Report' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitFrequency/Reports/Get.php' => 'Piwik\\Plugins\\VisitFrequency\\Reports\\Get',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitFrequency/Reports/Get.php' => 'Piwik\\Plugins\\VisitFrequency\\Reports\\Get',
     ),
     'PluginVisitTimeReports\\Piwik\\Plugin\\Report' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitTime/Reports/GetByDayOfWeek.php' => 'Piwik\\Plugins\\VisitTime\\Reports\\GetByDayOfWeek',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitTime/Reports/GetVisitInformationPerLocalTime.php' => 'Piwik\\Plugins\\VisitTime\\Reports\\GetVisitInformationPerLocalTime',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitTime/Reports/GetVisitInformationPerServerTime.php' => 'Piwik\\Plugins\\VisitTime\\Reports\\GetVisitInformationPerServerTime',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitTime/Reports/GetByDayOfWeek.php' => 'Piwik\\Plugins\\VisitTime\\Reports\\GetByDayOfWeek',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitTime/Reports/GetVisitInformationPerLocalTime.php' => 'Piwik\\Plugins\\VisitTime\\Reports\\GetVisitInformationPerLocalTime',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitTime/Reports/GetVisitInformationPerServerTime.php' => 'Piwik\\Plugins\\VisitTime\\Reports\\GetVisitInformationPerServerTime',
     ),
     'PluginVisitorInterestReports\\Piwik\\Plugin\\Report' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitorInterest/Reports/GetNumberOfVisitsByDaysSinceLast.php' => 'Piwik\\Plugins\\VisitorInterest\\Reports\\GetNumberOfVisitsByDaysSinceLast',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitorInterest/Reports/GetNumberOfVisitsByVisitCount.php' => 'Piwik\\Plugins\\VisitorInterest\\Reports\\GetNumberOfVisitsByVisitCount',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitorInterest/Reports/GetNumberOfVisitsPerPage.php' => 'Piwik\\Plugins\\VisitorInterest\\Reports\\GetNumberOfVisitsPerPage',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitorInterest/Reports/GetNumberOfVisitsPerVisitDuration.php' => 'Piwik\\Plugins\\VisitorInterest\\Reports\\GetNumberOfVisitsPerVisitDuration',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitorInterest/Reports/GetNumberOfVisitsByDaysSinceLast.php' => 'Piwik\\Plugins\\VisitorInterest\\Reports\\GetNumberOfVisitsByDaysSinceLast',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitorInterest/Reports/GetNumberOfVisitsByVisitCount.php' => 'Piwik\\Plugins\\VisitorInterest\\Reports\\GetNumberOfVisitsByVisitCount',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitorInterest/Reports/GetNumberOfVisitsPerPage.php' => 'Piwik\\Plugins\\VisitorInterest\\Reports\\GetNumberOfVisitsPerPage',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/VisitorInterest/Reports/GetNumberOfVisitsPerVisitDuration.php' => 'Piwik\\Plugins\\VisitorInterest\\Reports\\GetNumberOfVisitsPerVisitDuration',
     ),
     'PluginExampleAPIReports\\Piwik\\Plugin\\Report' => 
     array (
@@ -3145,14 +2911,14 @@
     ),
     'PluginLiveReports\\Piwik\\Plugin\\Report' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Live/Reports/GetLastVisits.php' => 'Piwik\\Plugins\\Live\\Reports\\GetLastVisits',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Live/Reports/GetLastVisitsDetails.php' => 'Piwik\\Plugins\\Live\\Reports\\GetLastVisitsDetails',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Live/Reports/GetSimpleLastVisitCount.php' => 'Piwik\\Plugins\\Live\\Reports\\GetSimpleLastVisitCount',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Live/Reports/GetLastVisits.php' => 'Piwik\\Plugins\\Live\\Reports\\GetLastVisits',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Live/Reports/GetLastVisitsDetails.php' => 'Piwik\\Plugins\\Live\\Reports\\GetLastVisitsDetails',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Live/Reports/GetSimpleLastVisitCount.php' => 'Piwik\\Plugins\\Live\\Reports\\GetSimpleLastVisitCount',
     ),
     'PluginCustomVariablesReports\\Piwik\\Plugin\\Report' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CustomVariables/Reports/GetCustomVariables.php' => 'Piwik\\Plugins\\CustomVariables\\Reports\\GetCustomVariables',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CustomVariables/Reports/GetCustomVariablesValuesFromNameId.php' => 'Piwik\\Plugins\\CustomVariables\\Reports\\GetCustomVariablesValuesFromNameId',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CustomVariables/Reports/GetCustomVariables.php' => 'Piwik\\Plugins\\CustomVariables\\Reports\\GetCustomVariables',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CustomVariables/Reports/GetCustomVariablesValuesFromNameId.php' => 'Piwik\\Plugins\\CustomVariables\\Reports\\GetCustomVariablesValuesFromNameId',
     ),
     'PluginPrivacyManagerReports\\Piwik\\Plugin\\Report' => 
     array (
@@ -3180,20 +2946,20 @@
     ),
     'PluginContentsReports\\Piwik\\Plugin\\Report' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Reports/GetContentNames.php' => 'Piwik\\Plugins\\Contents\\Reports\\GetContentNames',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Reports/GetContentPieces.php' => 'Piwik\\Plugins\\Contents\\Reports\\GetContentPieces',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Reports/GetContentNames.php' => 'Piwik\\Plugins\\Contents\\Reports\\GetContentNames',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Contents/Reports/GetContentPieces.php' => 'Piwik\\Plugins\\Contents\\Reports\\GetContentPieces',
     ),
     'PluginBulkTrackingReports\\Piwik\\Plugin\\Report' => 
     array (
     ),
     'PluginResolutionReports\\Piwik\\Plugin\\Report' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Resolution/Reports/GetConfiguration.php' => 'Piwik\\Plugins\\Resolution\\Reports\\GetConfiguration',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Resolution/Reports/GetResolution.php' => 'Piwik\\Plugins\\Resolution\\Reports\\GetResolution',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Resolution/Reports/GetConfiguration.php' => 'Piwik\\Plugins\\Resolution\\Reports\\GetConfiguration',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Resolution/Reports/GetResolution.php' => 'Piwik\\Plugins\\Resolution\\Reports\\GetResolution',
     ),
     'PluginDevicePluginsReports\\Piwik\\Plugin\\Report' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Reports/GetPlugin.php' => 'Piwik\\Plugins\\DevicePlugins\\Reports\\GetPlugin',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/DevicePlugins/Reports/GetPlugin.php' => 'Piwik\\Plugins\\DevicePlugins\\Reports\\GetPlugin',
     ),
     'PluginHeartbeatReports\\Piwik\\Plugin\\Report' => 
     array (
@@ -3587,6 +3353,184 @@
         'english_name' => 'Traditional Chinese',
       ),
     ),
+    'PluginCorePluginsAdminRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginCoreAdminHomeRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginCoreHomeRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginWebsiteMeasurableRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginDiagnosticsRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginCoreVisualizationsRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginProxyRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginAPIRendererPiwik\\API\\ApiRenderer' => 
+    array (
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/API/Renderer/Console.php' => 'Piwik\\Plugins\\API\\Renderer\\Console',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/API/Renderer/Csv.php' => 'Piwik\\Plugins\\API\\Renderer\\Csv',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/API/Renderer/Html.php' => 'Piwik\\Plugins\\API\\Renderer\\Html',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/API/Renderer/Json.php' => 'Piwik\\Plugins\\API\\Renderer\\Json',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/API/Renderer/Json2.php' => 'Piwik\\Plugins\\API\\Renderer\\Json2',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/API/Renderer/Original.php' => 'Piwik\\Plugins\\API\\Renderer\\Original',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/API/Renderer/Php.php' => 'Piwik\\Plugins\\API\\Renderer\\Php',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/API/Renderer/Rss.php' => 'Piwik\\Plugins\\API\\Renderer\\Rss',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/API/Renderer/Tsv.php' => 'Piwik\\Plugins\\API\\Renderer\\Tsv',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/API/Renderer/Xml.php' => 'Piwik\\Plugins\\API\\Renderer\\Xml',
+    ),
+    'PluginExamplePluginRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginWidgetizeRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginTransitionsRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginLanguagesManagerRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginActionsRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginDashboardRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginMultiSitesRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginReferrersRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginUserLanguageRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginDevicesDetectionRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginGoalsRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginEcommerceRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginSEORendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginEventsRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginUserCountryRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginVisitsSummaryRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginVisitFrequencyRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginVisitTimeRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginVisitorInterestRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginExampleAPIRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginExampleRssWidgetRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginFeedbackRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginMonologRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginLoginRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginUsersManagerRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginSitesManagerRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginInstallationRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginCoreUpdaterRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginCoreConsoleRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginScheduledReportsRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginUserCountryMapRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginLiveRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginCustomVariablesRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginPrivacyManagerRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginImageGraphRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginAnnotationsRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginMobileMessagingRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginOverlayRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginSegmentEditorRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginInsightsRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginMorpheusRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginContentsRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginBulkTrackingRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginResolutionRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginDevicePluginsRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginHeartbeatRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginIntlRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
+    'PluginPiwikProRendererPiwik\\API\\ApiRenderer' => 
+    array (
+    ),
     'ReportFactoryMap-663afcb1f27796cc06c05b5daaadab78-de' => 
     array (
       'Live.GetLastVisits' => 'Piwik\\Plugins\\Live\\Reports\\GetLastVisits',
@@ -3622,13 +3566,13 @@
       'Contents.GetContentNames' => 'Piwik\\Plugins\\Contents\\Reports\\GetContentNames',
       'Contents.GetContentPieces' => 'Piwik\\Plugins\\Contents\\Reports\\GetContentPieces',
       'Events.GetCategory' => 'Piwik\\Plugins\\Events\\Reports\\GetCategory',
-      'Events.GetNameFromActionId' => 'Piwik\\Plugins\\Events\\Reports\\GetNameFromActionId',
-      'Events.GetActionFromNameId' => 'Piwik\\Plugins\\Events\\Reports\\GetActionFromNameId',
-      'Events.GetActionFromCategoryId' => 'Piwik\\Plugins\\Events\\Reports\\GetActionFromCategoryId',
-      'Events.GetAction' => 'Piwik\\Plugins\\Events\\Reports\\GetAction',
-      'Events.GetNameFromCategoryId' => 'Piwik\\Plugins\\Events\\Reports\\GetNameFromCategoryId',
       'Events.GetCategoryFromActionId' => 'Piwik\\Plugins\\Events\\Reports\\GetCategoryFromActionId',
+      'Events.GetNameFromCategoryId' => 'Piwik\\Plugins\\Events\\Reports\\GetNameFromCategoryId',
+      'Events.GetAction' => 'Piwik\\Plugins\\Events\\Reports\\GetAction',
+      'Events.GetActionFromCategoryId' => 'Piwik\\Plugins\\Events\\Reports\\GetActionFromCategoryId',
+      'Events.GetNameFromActionId' => 'Piwik\\Plugins\\Events\\Reports\\GetNameFromActionId',
       'Events.GetCategoryFromNameId' => 'Piwik\\Plugins\\Events\\Reports\\GetCategoryFromNameId',
+      'Events.GetActionFromNameId' => 'Piwik\\Plugins\\Events\\Reports\\GetActionFromNameId',
       'Events.GetName' => 'Piwik\\Plugins\\Events\\Reports\\GetName',
       'Actions.GetSiteSearchKeywords' => 'Piwik\\Plugins\\Actions\\Reports\\GetSiteSearchKeywords',
       'Actions.GetSiteSearchNoResultKeywords' => 'Piwik\\Plugins\\Actions\\Reports\\GetSiteSearchNoResultKeywords',
@@ -3653,17 +3597,17 @@
       'UserCountry.GetRegion' => 'Piwik\\Plugins\\UserCountry\\Reports\\GetRegion',
       'UserCountry.GetCity' => 'Piwik\\Plugins\\UserCountry\\Reports\\GetCity',
       'CustomVariables.GetCustomVariables' => 'Piwik\\Plugins\\CustomVariables\\Reports\\GetCustomVariables',
-      'VisitorInterest.GetNumberOfVisitsPerVisitDuration' => 'Piwik\\Plugins\\VisitorInterest\\Reports\\GetNumberOfVisitsPerVisitDuration',
       'CustomVariables.GetCustomVariablesValuesFromNameId' => 'Piwik\\Plugins\\CustomVariables\\Reports\\GetCustomVariablesValuesFromNameId',
+      'VisitorInterest.GetNumberOfVisitsPerVisitDuration' => 'Piwik\\Plugins\\VisitorInterest\\Reports\\GetNumberOfVisitsPerVisitDuration',
       'VisitorInterest.GetNumberOfVisitsPerPage' => 'Piwik\\Plugins\\VisitorInterest\\Reports\\GetNumberOfVisitsPerPage',
       'VisitorInterest.GetNumberOfVisitsByVisitCount' => 'Piwik\\Plugins\\VisitorInterest\\Reports\\GetNumberOfVisitsByVisitCount',
       'VisitorInterest.GetNumberOfVisitsByDaysSinceLast' => 'Piwik\\Plugins\\VisitorInterest\\Reports\\GetNumberOfVisitsByDaysSinceLast',
       'VisitFrequency.Get' => 'Piwik\\Plugins\\VisitFrequency\\Reports\\Get',
       'DevicesDetection.GetType' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetType',
-      'DevicesDetection.GetBrowsers' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetBrowsers',
       'DevicesDetection.GetBrand' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetBrand',
-      'DevicesDetection.GetModel' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetModel',
+      'DevicesDetection.GetBrowsers' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetBrowsers',
       'DevicesDetection.GetBrowserVersions' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetBrowserVersions',
+      'DevicesDetection.GetModel' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetModel',
       'DevicesDetection.GetOsFamilies' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetOsFamilies',
       'DevicesDetection.GetOsVersions' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetOsVersions',
       'DevicesDetection.GetBrowserEngines' => 'Piwik\\Plugins\\DevicesDetection\\Reports\\GetBrowserEngines',
@@ -3685,14 +3629,14 @@
     ),
     'PluginCoreVisualizationsVisualizations\\Piwik\\Plugin\\ViewDataTable' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreVisualizations/Visualizations/Cloud.php' => 'Piwik\\Plugins\\CoreVisualizations\\Visualizations\\Cloud',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreVisualizations/Visualizations/HtmlTable.php' => 'Piwik\\Plugins\\CoreVisualizations\\Visualizations\\HtmlTable',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreVisualizations/Visualizations/Sparkline.php' => 'Piwik\\Plugins\\CoreVisualizations\\Visualizations\\Sparkline',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreVisualizations/Visualizations/HtmlTable/AllColumns.php' => 'Piwik\\Plugins\\CoreVisualizations\\Visualizations\\HtmlTable\\AllColumns',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreVisualizations/Visualizations/HtmlTable/PivotBy.php' => 'Piwik\\Plugins\\CoreVisualizations\\Visualizations\\HtmlTable\\PivotBy',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreVisualizations/Visualizations/JqplotGraph/Bar.php' => 'Piwik\\Plugins\\CoreVisualizations\\Visualizations\\JqplotGraph\\Bar',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreVisualizations/Visualizations/JqplotGraph/Evolution.php' => 'Piwik\\Plugins\\CoreVisualizations\\Visualizations\\JqplotGraph\\Evolution',
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreVisualizations/Visualizations/JqplotGraph/Pie.php' => 'Piwik\\Plugins\\CoreVisualizations\\Visualizations\\JqplotGraph\\Pie',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreVisualizations/Visualizations/Cloud.php' => 'Piwik\\Plugins\\CoreVisualizations\\Visualizations\\Cloud',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreVisualizations/Visualizations/HtmlTable.php' => 'Piwik\\Plugins\\CoreVisualizations\\Visualizations\\HtmlTable',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreVisualizations/Visualizations/Sparkline.php' => 'Piwik\\Plugins\\CoreVisualizations\\Visualizations\\Sparkline',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreVisualizations/Visualizations/HtmlTable/AllColumns.php' => 'Piwik\\Plugins\\CoreVisualizations\\Visualizations\\HtmlTable\\AllColumns',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreVisualizations/Visualizations/HtmlTable/PivotBy.php' => 'Piwik\\Plugins\\CoreVisualizations\\Visualizations\\HtmlTable\\PivotBy',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreVisualizations/Visualizations/JqplotGraph/Bar.php' => 'Piwik\\Plugins\\CoreVisualizations\\Visualizations\\JqplotGraph\\Bar',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreVisualizations/Visualizations/JqplotGraph/Evolution.php' => 'Piwik\\Plugins\\CoreVisualizations\\Visualizations\\JqplotGraph\\Evolution',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/CoreVisualizations/Visualizations/JqplotGraph/Pie.php' => 'Piwik\\Plugins\\CoreVisualizations\\Visualizations\\JqplotGraph\\Pie',
     ),
     'PluginProxyVisualizations\\Piwik\\Plugin\\ViewDataTable' => 
     array (
@@ -3732,7 +3676,7 @@
     ),
     'PluginGoalsVisualizations\\Piwik\\Plugin\\ViewDataTable' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Visualizations/Goals.php' => 'Piwik\\Plugins\\Goals\\Visualizations\\Goals',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Goals/Visualizations/Goals.php' => 'Piwik\\Plugins\\Goals\\Visualizations\\Goals',
     ),
     'PluginEcommerceVisualizations\\Piwik\\Plugin\\ViewDataTable' => 
     array (
@@ -3796,7 +3740,7 @@
     ),
     'PluginLiveVisualizations\\Piwik\\Plugin\\ViewDataTable' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Live/Visualizations/VisitorLog.php' => 'Piwik\\Plugins\\Live\\Visualizations\\VisitorLog',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Live/Visualizations/VisitorLog.php' => 'Piwik\\Plugins\\Live\\Visualizations\\VisitorLog',
     ),
     'PluginCustomVariablesVisualizations\\Piwik\\Plugin\\ViewDataTable' => 
     array (
@@ -3821,7 +3765,7 @@
     ),
     'PluginInsightsVisualizations\\Piwik\\Plugin\\ViewDataTable' => 
     array (
-      'C:\\Homepages\\Xampp\\htdocs\\wgxpiwik\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Insights/Visualizations/Insight.php' => 'Piwik\\Plugins\\Insights\\Visualizations\\Insight',
+      'C:\\Homepages\\wamp\\www\\xoops258\\htdocs\\modules\\wgxpiwik\\piwik/plugins/Insights/Visualizations/Insight.php' => 'Piwik\\Plugins\\Insights\\Visualizations\\Insight',
     ),
     'PluginMorpheusVisualizations\\Piwik\\Plugin\\ViewDataTable' => 
     array (
@@ -3847,5 +3791,61 @@
     'PluginPiwikProVisualizations\\Piwik\\Plugin\\ViewDataTable' => 
     array (
     ),
+    'PluginCorePluginsAdminTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\CorePluginsAdmin\\Tasks',
+    'PluginCoreAdminHomeTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\CoreAdminHome\\Tasks',
+    'PluginCoreHomeTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginWebsiteMeasurableTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginDiagnosticsTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginCoreVisualizationsTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginProxyTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginAPITasksPiwik\\Plugin\\Tasks' => false,
+    'PluginExamplePluginTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\ExamplePlugin\\Tasks',
+    'PluginWidgetizeTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginTransitionsTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginLanguagesManagerTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginActionsTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginDashboardTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginMultiSitesTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginReferrersTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\Referrers\\Tasks',
+    'PluginUserLanguageTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginDevicesDetectionTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginGoalsTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginEcommerceTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginSEOTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginEventsTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginUserCountryTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\UserCountry\\Tasks',
+    'PluginVisitsSummaryTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginVisitFrequencyTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginVisitTimeTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginVisitorInterestTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginExampleAPITasksPiwik\\Plugin\\Tasks' => false,
+    'PluginExampleRssWidgetTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginFeedbackTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginMonologTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginLoginTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginUsersManagerTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\UsersManager\\Tasks',
+    'PluginSitesManagerTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginInstallationTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginCoreUpdaterTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\CoreUpdater\\Tasks',
+    'PluginCoreConsoleTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginScheduledReportsTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\ScheduledReports\\Tasks',
+    'PluginUserCountryMapTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginLiveTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginCustomVariablesTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginPrivacyManagerTasksPiwik\\Plugin\\Tasks' => 'Piwik\\Plugins\\PrivacyManager\\Tasks',
+    'PluginImageGraphTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginAnnotationsTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginMobileMessagingTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginOverlayTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginSegmentEditorTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginInsightsTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginMorpheusTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginContentsTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginBulkTrackingTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginResolutionTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginDevicePluginsTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginHeartbeatTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginIntlTasksPiwik\\Plugin\\Tasks' => false,
+    'PluginPiwikProTasksPiwik\\Plugin\\Tasks' => false,
   ),
 );

@@ -99,9 +99,10 @@ define('_AM_WGXPIWIK_PERMS_LIST', "Liste der Berechtigungen");
 define('_AM_WGXPIWIK_PERM_ID', "Berechtigungs-ID");
 define('_AM_WGXPIWIK_PERM_GROUPID', "Gruppe");
 define('_AM_WGXPIWIK_PERM_PIWIK_LOGIN', "Piwik User");
-define('_AM_WGXPIWIK_PERM_PIWIK_LOGIN_DESC', "<br/>Achtung: Aus Sicherheitsgründen ist es niocht erlaubt, einen Super-Access-Benutzer für den Login über iframe zu verwenden");
+define('_AM_WGXPIWIK_PERM_PIWIK_LOGIN_DESC', "<br/>Achtung: Aus Sicherheitsgründen ist es nicht erlaubt, einen Super-Access-Benutzer für den Login über iframe zu verwenden");
 define('_AM_WGXPIWIK_PERM_WEIGHT', "Reihung");
 define('_AM_WGXPIWIK_PERM_EDIT', "Berechtigung bearbeiten");
+define('_AM_WGXPIWIK_PERM_NONE', "Ohne");
 
 // ---------------- Admin Others ----------------
 define('_AM_WGXPIWIK_MAINTAINEDBY', " wird unterstützt durch <a href='http://wedega.com'>http://wedega.com</a> und <a href='http://xoops.wedega.com'>http://xoops.wedega.com</a>");

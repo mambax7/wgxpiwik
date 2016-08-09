@@ -29,18 +29,16 @@ switch ($op)
 {
     case 'list':
     default:
-        global $xoopsDB;
-
         // add new groupid from xoops groups to table perms
-        $sql = 'INSERT INTO ' . $xoopsDB->prefix('mod_wgxpiwik_perms') . ' ( perm_groupid ) SELECT groupid FROM ' . $xoopsDB->prefix('groups'). ' LEFT JOIN ' . $xoopsDB->prefix('mod_wgxpiwik_perms') .' ON ' . $xoopsDB->prefix('groups') . '.groupid = ' . $xoopsDB->prefix('mod_wgxpiwik_perms') . '.perm_groupid WHERE (' . $xoopsDB->prefix('mod_wgxpiwik_perms') . '.perm_groupid Is Null);';
-        $result = $xoopsDB->queryF($sql);
+        $sql = "INSERT INTO " . $GLOBALS['xoopsDB']->prefix('mod_wgxpiwik_perms') . " ( perm_groupid, perm_piwik_login ) SELECT groupid, '" . _AM_WGXPIWIK_PERM_NONE . "' FROM " . $GLOBALS['xoopsDB']->prefix('groups'). " LEFT JOIN " . $GLOBALS['xoopsDB']->prefix('mod_wgxpiwik_perms') ." ON " . $GLOBALS['xoopsDB']->prefix('groups') . ".groupid = " . $GLOBALS['xoopsDB']->prefix('mod_wgxpiwik_perms') . ".perm_groupid WHERE (" . $GLOBALS['xoopsDB']->prefix('mod_wgxpiwik_perms') . ".perm_groupid Is Null);";
+        $result = $GLOBALS['xoopsDB']->queryF($sql);
 
         // delete non-existing groupid from xoops groups to table perms
-        $sql = 'DELETE ' . $xoopsDB->prefix('mod_wgxpiwik_perms') . '.* FROM ' . $xoopsDB->prefix('mod_wgxpiwik_perms') . ' LEFT JOIN ' . $xoopsDB->prefix('groups') . ' ON ' .$xoopsDB->prefix('mod_wgxpiwik_perms') . '.perm_groupid = ' . $xoopsDB->prefix('groups') .'.groupid WHERE (((' . $xoopsDB->prefix('groups') . '.groupid) Is Null));';
-        $result = $xoopsDB->queryF($sql);
+        $sql = 'DELETE ' . $GLOBALS['xoopsDB']->prefix('mod_wgxpiwik_perms') . '.* FROM ' . $GLOBALS['xoopsDB']->prefix('mod_wgxpiwik_perms') . ' LEFT JOIN ' . $GLOBALS['xoopsDB']->prefix('groups') . ' ON ' .$GLOBALS['xoopsDB']->prefix('mod_wgxpiwik_perms') . '.perm_groupid = ' . $GLOBALS['xoopsDB']->prefix('groups') .'.groupid WHERE (((' . $GLOBALS['xoopsDB']->prefix('groups') . '.groupid) Is Null));';
+        $result = $GLOBALS['xoopsDB']->queryF($sql);
         
-        $sql = 'UPDATE ' . $xoopsDB->prefix('mod_wgxpiwik_perms') . ' SET ' . $xoopsDB->prefix('mod_wgxpiwik_perms') . '.perm_weight = ' . $xoopsDB->prefix('mod_wgxpiwik_perms'). '.perm_id WHERE (' . $xoopsDB->prefix('mod_wgxpiwik_perms') .'.perm_weight = 0);';
-        $result = $xoopsDB->queryF($sql);
+        $sql = 'UPDATE ' . $GLOBALS['xoopsDB']->prefix('mod_wgxpiwik_perms') . ' SET ' . $GLOBALS['xoopsDB']->prefix('mod_wgxpiwik_perms') . '.perm_weight = ' . $GLOBALS['xoopsDB']->prefix('mod_wgxpiwik_perms'). '.perm_id WHERE (' . $GLOBALS['xoopsDB']->prefix('mod_wgxpiwik_perms') .'.perm_weight = 0);';
+        $result = $GLOBALS['xoopsDB']->queryF($sql);
         
         $start = XoopsRequest::getInt('start', 0);
         $limit = XoopsRequest::getInt('limit', $wgxpiwik->getConfig('adminpager'));

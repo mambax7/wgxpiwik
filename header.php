@@ -30,12 +30,12 @@ $xoBreadcrumbs   = array();
 $xoBreadcrumbs[] = array('title' => $GLOBALS['xoopsModule']->getVar('name'), 'link' => WGXPIWIK_URL . '/');
 // Get instance of module
 $wgxpiwik = WgxpiwikHelper::getInstance();
-$permsHandler =& $wgxpiwik->getHandler('perms');
-$piwikHandler =& $wgxpiwik->getHandler('piwik');
+$permsHandler = $wgxpiwik->getHandler('perms');
+$piwikHandler = $wgxpiwik->getHandler('piwik');
 // Permission
 
 //
-$myts =& MyTextSanitizer::getInstance();
+$myts = MyTextSanitizer::getInstance();
 if(!file_exists($style = WGXPIWIK_URL . '/assets/css/style.css')) { return false; }
 //
 $sysPathIcon16   = $GLOBALS['xoopsModule']->getInfo('sysicons16');

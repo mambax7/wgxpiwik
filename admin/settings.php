@@ -22,8 +22,6 @@
  
 include __DIR__ . '/header.php';
 
-global $xoopsDB;
-
 require_once WGXPIWIK_PATH . '/piwik/core/Version.php';
 use Piwik\Version;
 
@@ -67,12 +65,12 @@ switch ($op)
     
     case 'defaultblocksettings':
     
-        $sql = 'SELECT * FROM ' . $xoopsDB->prefix('newblocks') . ' WHERE mid = ' . $xoopsModule->getVar('mid');
-        $sql = 'SELECT DISTINCT(b.bid), b.*, l.* FROM ' . $xoopsDB->prefix('newblocks') . ' b LEFT JOIN ' . $xoopsDB->prefix('block_module_link');
+        $sql = 'SELECT * FROM ' . $GLOBALS['xoopsDB']->prefix('newblocks') . ' WHERE mid = ' . $xoopsModule->getVar('mid');
+        $sql = 'SELECT DISTINCT(b.bid), b.*, l.* FROM ' . $GLOBALS['xoopsDB']->prefix('newblocks') . ' b LEFT JOIN ' . $GLOBALS['xoopsDB']->prefix('block_module_link');
         $sql .= ' l ON b.bid=l.block_id  WHERE mid = ' . $xoopsModule->getVar('mid');
     
-        $result = $xoopsDB->queryF($sql);
-        while ($newblock = mysql_fetch_assoc($result)) {
+        $result = $GLOBALS['xoopsDB']->queryF($sql);
+        while ($newblock = $GLOBALS['xoopsDB']->fetchArray($result)) {
             if ($newblock['func_file'] == 'tracker.php') {
                 $isvisible = $newblock['visible'];
                 $blocktitle = $newblock['title'];
@@ -83,14 +81,14 @@ switch ($op)
         unset($result);
         $errors = 0;
         if ($isvisible == 0  || !$blocktitle == 'a') {
-            $sql = 'UPDATE ' . $xoopsDB->prefix('newblocks') . " SET title='', visible=1 WHERE mid = " . $xoopsModule->getVar('mid');
-            $result = $xoopsDB->queryF($sql);
+            $sql = 'UPDATE ' . $GLOBALS['xoopsDB']->prefix('newblocks') . " SET title='', visible=1 WHERE mid = " . $xoopsModule->getVar('mid');
+            $result = $GLOBALS['xoopsDB']->queryF($sql);
             if (!$result == 1) $errors++;
             unset($result);
         }
         if (!$bl_module_id == 0) {
-            $sql = 'UPDATE ' . $xoopsDB->prefix('block_module_link') . ' SET module_id=0 WHERE block_id = ' . $block_id;
-            $result = $xoopsDB->queryF($sql);
+            $sql = 'UPDATE ' . $GLOBALS['xoopsDB']->prefix('block_module_link') . ' SET module_id=0 WHERE block_id = ' . $block_id;
+            $result = $GLOBALS['xoopsDB']->queryF($sql);
             if (!$result == 1) $errors++;
             unset($result);
         }
@@ -129,12 +127,12 @@ switch ($op)
         
         // get block state
         $isvisible = 0;
-        $sql = 'SELECT * FROM ' . $xoopsDB->prefix('newblocks') . ' WHERE mid = ' . $xoopsModule->getVar('mid');
-        $sql = 'SELECT DISTINCT(b.bid), b.*, l.module_id FROM ' . $xoopsDB->prefix('newblocks') . ' b LEFT JOIN ' . $xoopsDB->prefix('block_module_link');
+        $sql = 'SELECT * FROM ' . $GLOBALS['xoopsDB']->prefix('newblocks') . ' WHERE mid = ' . $xoopsModule->getVar('mid');
+        $sql = 'SELECT DISTINCT(b.bid), b.*, l.module_id FROM ' . $GLOBALS['xoopsDB']->prefix('newblocks') . ' b LEFT JOIN ' . $GLOBALS['xoopsDB']->prefix('block_module_link');
         $sql .= ' l ON b.bid=l.block_id  WHERE mid = ' . $xoopsModule->getVar('mid');
     
-        $result = $xoopsDB->queryF($sql);
-        while ($newblock = mysql_fetch_assoc($result)) {
+        $result = $GLOBALS['xoopsDB']->queryF($sql);
+        while ($newblock = $GLOBALS['xoopsDB']->fetchArray($result)) {
             if ($newblock['func_file'] == 'tracker.php') {
                 $isvisible = $newblock['visible'];
                 $blocktitle = $newblock['title'];
