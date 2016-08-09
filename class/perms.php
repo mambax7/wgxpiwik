@@ -151,7 +151,7 @@ class WgxpiwikPermsHandler extends XoopsPersistableObjectHandler
      */
     public function __construct(&$db)
     {
-        parent::__construct($db, 'mod_wgxpiwik_perms', 'wgxpiwikperms', 'perm_id', 'perm_groupid');
+        parent::__construct($db, 'wgxpiwik_perms', 'wgxpiwikperms', 'perm_id', 'perm_groupid');
         $this->wgxpiwik = WgxpiwikHelper::getInstance();
     }
 

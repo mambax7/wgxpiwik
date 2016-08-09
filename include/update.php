@@ -29,16 +29,37 @@ function xoops_module_update_wgxpiwik(&$module, $prev_version = null)
 {
 
     $ret = null;
-    /*     
-    if ($prev_version < 10) {
-        $ret = update_wgxpiwik_v10($module);
+     
+    if ($prev_version < 106) {
+        $ret = update_wgxpiwik_v106($module);
     }
     $errors = $module->getErrors();
     if (!empty($errors)) {
         print_r($errors);
     } 
-    */
 
+    
     return $ret;
 
 }
+
+function update_wgxpiwik_v106($module) {
+    
+	global $xoopsDB; 
+    if (tableExists($xoopsDB->prefix('mod_wgxpiwik_perms'))) { 
+        $sql    = sprintf('ALTER TABLE '.$xoopsDB->prefix('mod_wgxpiwik_perms').' RENAME '.$xoopsDB->prefix('wgxpiwik_perms')); 
+        $result = $xoopsDB->queryF($sql); 
+        if (!$result) { 
+            echo "<br />Rename table 'mod_wgxpiwik_perms' to 'wgxpiwik_perms' failed";
+            $errors++; 
+        } 
+    }
+        return TRUE; 
+    }
+
+function tableExists($tablename) 
+{ 
+    global $xoopsDB; 
+    $result=$xoopsDB->queryF("SHOW TABLES LIKE '$tablename'"); 
+    return($xoopsDB->getRowsNum($result) > 0); 
+} 
