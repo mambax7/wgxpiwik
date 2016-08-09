@@ -33,33 +33,35 @@ function b_wgxpiwik_tracker_show($options)
     if ($piwik_tracker_type[0] == 3) {      
         // Piwik Image Tracker
         $block  =  '<!-- Piwik Image Tracker -->';
-        $block  .= '<img src="' . XOOPS_URL . '/modules/wgxpiwik/piwik/piwik.php?idsite=' . $sites_list[0]['idsite'] . '&amp;rec=1" style="border:0" alt="" />';
+        if ( count($sites_list) > 0 ) {
+            $block  .= '<img src="' . XOOPS_URL . '/modules/wgxpiwik/piwik/piwik.php?idsite=' . $sites_list[0]['idsite'] . '&amp;rec=1" style="border:0" alt="" />';           
+        }
         $block  .= '<!-- End Piwik -->';
         
     } else if ($piwik_tracker_type[0] == 2) {
         // php-Tracker
         require_once XOOPS_ROOT_PATH . '/modules/wgxpiwik/PiwikTracker.php';
         PiwikTracker::$URL = XOOPS_URL;
-        $block = '';
+        $block = '&nbsp;';
         
     } else {
         // js-tracker
-        $piwikHandler = $wgxpiwik->getHandler('piwik');
-        $sites_list   = $piwikHandler->wgxpiwikGetPiwikSites();
         $block   = '<!-- Piwik -->';
-        $block  .= '<script type="text/javascript">';
-        $block  .= '   var _paq = _paq || [];';
-        $block  .= '   _paq.push(["trackPageView"]);';
-        $block  .= '   _paq.push(["enableLinkTracking"]);';
-        $block  .= '   (function() {';
-        $block  .= '       var u="' . XOOPS_URL . '/modules/wgxpiwik/piwik/";';
-        $block  .= '       _paq.push(["setTrackerUrl", u+"piwik.php"]);';
-        $block  .= '       _paq.push(["setSiteId", "' . $sites_list[0]['idsite'] . '"]);';
-        $block  .= '       var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];';
-        $block  .= '       g.type="text/javascript"; g.async=true; g.defer=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);';
-        $block  .= '   })();';
-        $block  .= '</script>';
-        $block  .= '<noscript><p><img src="' . XOOPS_URL . '/modules/wgxpiwik/piwik/piwik.php?idsite=' . $sites_list[0]['idsite'] . '" style="border:0;" alt="" /></p></noscript>';
+        if ( count($sites_list) > 0 ) {
+            $block  .= '<script type="text/javascript">';
+            $block  .= '   var _paq = _paq || [];';
+            $block  .= '   _paq.push(["trackPageView"]);';
+            $block  .= '   _paq.push(["enableLinkTracking"]);';
+            $block  .= '   (function() {';
+            $block  .= '       var u="' . XOOPS_URL . '/modules/wgxpiwik/piwik/";';
+            $block  .= '       _paq.push(["setTrackerUrl", u+"piwik.php"]);';
+            $block  .= '       _paq.push(["setSiteId", "' . $sites_list[0]['idsite'] . '"]);';
+            $block  .= '       var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];';
+            $block  .= '       g.type="text/javascript"; g.async=true; g.defer=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);';
+            $block  .= '   })();';
+            $block  .= '</script>';
+            $block  .= '<noscript><p><img src="' . XOOPS_URL . '/modules/wgxpiwik/piwik/piwik.php?idsite=' . $sites_list[0]['idsite'] . '" style="border:0;" alt="" /></p></noscript>';
+        }
         $block  .= '<!-- End Piwik Code -->';
     }
 
